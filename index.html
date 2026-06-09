@@ -28,7 +28,6 @@
   ::-webkit-scrollbar-thumb{background:var(--line2);border-radius:6px}
   ::-webkit-scrollbar-thumb:hover{background:#3a4a66}
 
-  /* Top bar */
   .topbar{position:sticky;top:0;z-index:50;background:linear-gradient(180deg,#0b1018,#0a0e14);border-bottom:1px solid var(--line);}
   .topbar-inner{max-width:1320px;margin:0 auto;padding:12px 20px;display:flex;align-items:center;gap:16px;flex-wrap:wrap}
   .brand{display:flex;align-items:center;gap:12px}
@@ -41,7 +40,6 @@
   .dot{width:8px;height:8px;border-radius:50%;background:var(--up);box-shadow:0 0 0 0 #16c78488;animation:pulse 2s infinite}
   @keyframes pulse{0%{box-shadow:0 0 0 0 #16c78466}70%{box-shadow:0 0 0 7px #16c78400}100%{box-shadow:0 0 0 0 #16c78400}}
 
-  /* Ticker */
   .ticker{background:#0b1018;border-bottom:1px solid var(--line);overflow:hidden;white-space:nowrap;position:sticky;top:63px;z-index:40}
   .ticker-track{display:inline-flex;gap:34px;padding:8px 20px;animation:scroll 38s linear infinite;font-family:'IBM Plex Mono';font-size:12.5px}
   .ticker:hover .ticker-track{animation-play-state:paused}
@@ -50,7 +48,6 @@
   .tk b{color:var(--txt)}
   .tk .u{color:var(--up)} .tk .d{color:var(--down)}
 
-  /* Layout */
   .wrap{max-width:1320px;margin:0 auto;padding:22px 20px 80px;display:grid;grid-template-columns:248px 1fr;gap:26px}
   .side{position:sticky;top:118px;align-self:start;max-height:calc(100vh - 140px);overflow:auto;padding-right:4px}
   .side h3{font-size:11px;letter-spacing:1.5px;text-transform:uppercase;color:var(--dim);font-family:'IBM Plex Mono';margin:18px 0 10px;font-weight:600}
@@ -63,7 +60,6 @@
   .navbtn .lbl{display:flex;align-items:center;min-width:0}
   .navbtn .lbl span{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 
-  /* Main */
   .main{min-width:0}
   .searchrow{display:flex;gap:10px;margin-bottom:18px;flex-wrap:wrap}
   .search{flex:1;min-width:220px;position:relative}
@@ -78,7 +74,6 @@
   .edition-head .meta{font-family:'IBM Plex Mono';font-size:12px;color:var(--muted)}
   .edition-head .ed-num{margin-left:auto;font-family:'IBM Plex Mono';font-size:11px;color:var(--dim);border:1px solid var(--line);padding:3px 9px;border-radius:6px}
 
-  /* Snapshot */
   .snap{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin-bottom:24px}
   .snap-card{background:linear-gradient(180deg,var(--panel),var(--bg2));border:1px solid var(--line);border-radius:12px;padding:14px 16px}
   .snap-card .k{font-size:11px;color:var(--muted);font-family:'IBM Plex Mono';letter-spacing:.5px;text-transform:uppercase}
@@ -87,7 +82,6 @@
   .snap-card.full{grid-column:1/-1;display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px}
   .snap-card.full .v{font-size:14px;font-weight:600}
 
-  /* Cards */
   .card{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:20px 22px;margin-bottom:16px;scroll-margin-top:140px;transition:.15s;position:relative;overflow:hidden}
   .card:hover{border-color:var(--line2)}
   .card::before{content:"";position:absolute;left:0;top:0;bottom:0;width:3px;background:var(--accent)}
@@ -101,7 +95,7 @@
   .card h4{font-size:17.5px;font-weight:700;line-height:1.32;letter-spacing:-.2px;margin-bottom:12px}
   .card ul{list-style:none;display:flex;flex-direction:column;gap:8px}
   .card li{position:relative;padding-left:18px;color:#cdd8e6;font-size:14.5px;line-height:1.55}
-  .card li::before{content:"▸";position:absolute;left:0;color:var(--accent);font-size:12px;top:1px}
+  .card li::before{content:"\25B8";position:absolute;left:0;color:var(--accent);font-size:12px;top:1px}
   .tickers{display:flex;gap:6px;flex-wrap:wrap;margin-top:13px}
   .chip{font-family:'IBM Plex Mono';font-size:11px;color:var(--amber2);background:#1a130022;border:1px solid #ffb00033;padding:2px 8px;border-radius:5px}
   .sources{margin-top:14px;padding-top:13px;border-top:1px dashed var(--line2);display:flex;flex-direction:column;gap:6px}
@@ -146,7 +140,7 @@
       </div>
       <div class="clock">
         <div class="live"><span class="dot"></span> LIVE EDITION</div>
-        <div id="clock">—</div>
+        <div id="clock">&mdash;</div>
       </div>
     </div>
   </header>
@@ -163,10 +157,10 @@
 
     <main class="main">
       <div class="searchrow">
-        <button class="menutoggle" onclick="document.getElementById('side').classList.toggle('open')">☰ Browse</button>
+        <button class="menutoggle" onclick="document.getElementById('side').classList.toggle('open')">&#9776; Browse</button>
         <div class="search">
           <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4-4"/></svg>
-          <input id="search" type="text" placeholder="Search news, tickers, policy, companies…" autocomplete="off"/>
+          <input id="search" type="text" placeholder="Search news, tickers, policy, companies&hellip;" autocomplete="off"/>
         </div>
         <button class="clearbtn" id="clearBtn">Clear</button>
       </div>
@@ -175,45 +169,44 @@
   </div>
 
   <footer>
-    <div><b>FuturisticBD Market Watch</b> · updated daily at 9:30 AM Bangladesh Standard Time (BST).</div>
-    <div>Coverage: DSE/CSE price-sensitive · BSEC & Bangladesh Bank policy · macro & sector · global impact · company news.</div>
-    <div class="disclaimer">For information only — not investment advice. Always verify price-sensitive disclosures against official DSE/CSE/BSEC filings before acting. Figures reflect the most recent session referenced in each item.</div>
+    <div><b>FuturisticBD Market Watch</b> &middot; updated daily at 9:30 AM Bangladesh Standard Time (BST).</div>
+    <div>Coverage: DSE/CSE price-sensitive &middot; BSEC &amp; Bangladesh Bank policy &middot; macro &amp; sector &middot; global impact &middot; company news.</div>
+    <div class="disclaimer">For information only &mdash; not investment advice. Always verify price-sensitive disclosures against official DSE/CSE/BSEC filings before acting. Figures reflect the most recent session referenced in each item.</div>
   </footer>
 
 <script>
-const CAT_ORDER = ["PRICE-SENSITIVE","COMPANY","POLICY","MACRO","GLOBAL"];
-const CAT_LABEL = {"PRICE-SENSITIVE":"Price-Sensitive (DSE/CSE)","COMPANY":"Company News","POLICY":"Policy & Regulatory","MACRO":"Macro & Sector","GLOBAL":"Global Impact"};
-const CAT_COLOR = {"PRICE-SENSITIVE":"var(--c-price)","COMPANY":"var(--c-company)","POLICY":"var(--c-policy)","MACRO":"var(--c-macro)","GLOBAL":"var(--c-global)"};
-let DATA=null, activeDate=null, activeCat="ALL", query="";
+var CAT_ORDER = ["PRICE-SENSITIVE","COMPANY","POLICY","MACRO","GLOBAL"];
+var CAT_LABEL = {"PRICE-SENSITIVE":"Price-Sensitive (DSE/CSE)","COMPANY":"Company News","POLICY":"Policy & Regulatory","MACRO":"Macro & Sector","GLOBAL":"Global Impact"};
+var CAT_COLOR = {"PRICE-SENSITIVE":"var(--c-price)","COMPANY":"var(--c-company)","POLICY":"var(--c-policy)","MACRO":"var(--c-macro)","GLOBAL":"var(--c-global)"};
+var DATA=null, activeDate=null, activeCat="ALL", query="";
 
-const esc=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
-function hl(text){ if(!query) return esc(text); const re=new RegExp('('+query.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')+')','ig'); return esc(text).replace(re,'<span class="hl">$1</span>'); }
+function esc(s){return String(s).replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];});}
+function hl(text){ if(!query) return esc(text); var re=new RegExp('('+query.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')+')','ig'); return esc(text).replace(re,'<span class="hl">$1</span>'); }
 
-const linkIcon='<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10 13a5 5 0 0 0 7 0l3-3a5 5 0 0 0-7-7l-1 1"/><path d="M14 11a5 5 0 0 0-7 0l-3 3a5 5 0 0 0 7 7l1-1"/></svg>';
+var linkIcon='<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10 13a5 5 0 0 0 7 0l3-3a5 5 0 0 0-7-7l-1 1"/><path d="M14 11a5 5 0 0 0-7 0l-3 3a5 5 0 0 0 7 7l1-1"/></svg>';
 
 function clock(){
-  const now=new Date();
-  const bst=new Date(now.getTime()+(now.getTimezoneOffset()*60000)+(6*3600000));
-  const f=bst.toLocaleString('en-GB',{weekday:'short',day:'2-digit',month:'short',hour:'2-digit',minute:'2-digit',second:'2-digit',hour12:false});
-  document.getElementById('clock').innerHTML=f+' <b>BST</b>';
+  var now=new Date();
+  var bst=new Date(now.getTime()+(now.getTimezoneOffset()*60000)+(6*3600000));
+  var f=bst.toLocaleString('en-GB',{weekday:'short',day:'2-digit',month:'short',hour:'2-digit',minute:'2-digit',second:'2-digit',hour12:false});
+  var el=document.getElementById('clock'); if(el) el.innerHTML=f+' <b>BST</b>';
 }
 setInterval(clock,1000);
 
-function showErr(msg){ var c=document.getElementById('content'); if(c) c.innerHTML='<div class="empty"><b>Load problem</b>'+msg+'</div>'; }
+function showErr(msg){ var c=document.getElementById('content'); if(c) c.innerHTML='<div class="empty"><b>Load problem</b>'+esc(msg)+'</div>'; }
+
 async function load(){
-  var raw=null, lastErr='';
+  var lastErr='';
   var paths=['./data.json?_='+Date.now(), '/data.json?_='+Date.now()];
   for(var i=0;i<paths.length;i++){
     try{
       var r=await fetch(paths[i],{cache:'no-store'});
       if(!r.ok){ lastErr='HTTP '+r.status+' on '+paths[i]; continue; }
-      raw=await r.text();
-      DATA=JSON.parse(raw);
-      lastErr='';
-      break;
+      DATA=JSON.parse(await r.text());
+      lastErr=''; break;
     }catch(e){ lastErr=(e&&e.message)||String(e); }
   }
-  if(!DATA){ showErr('Could not load data.json — '+lastErr); return; }
+  if(!DATA){ showErr('Could not load data.json - '+lastErr); return; }
   try{
     clock(); buildTicker(); buildNav();
     var h=location.hash.replace('#','');
@@ -221,112 +214,113 @@ async function load(){
     else { activeDate=DATA.editions[0].date; }
     render();
     if(h && h.indexOf('date-')!==0){ setTimeout(function(){var el=document.getElementById(h); if(el){el.scrollIntoView({block:'center'});}},120); }
-  }catch(e){ showErr('Render error: '+((e&&e.message)||e)); console.error(e); }
+  }catch(e){ showErr('Render error: '+((e&&e.message)||e)); if(window.console) console.error(e); }
 }
 
 function buildTicker(){
-  const snap=DATA.editions[0].marketSnapshot;
-  let parts=[];
-  snap.indices.forEach(i=>{ const cls=i.dir==='up'?'u':'d'; const ar=i.dir==='up'?'▲':'▼'; parts.push(`<span class="tk"><b>${i.name}</b> ${i.value} <span class="${cls}">${ar} ${i.change}</span></span>`); });
-  parts.push(`<span class="tk">TURNOVER <b>${esc(snap.turnover)}</b></span>`);
-  parts.push(`<span class="tk">BREADTH <b>${esc(snap.breadth)}</b></span>`);
-  parts.push(`<span class="tk" style="color:var(--amber)">● ${esc(snap.asOf)}</span>`);
-  document.getElementById('ticker').innerHTML=(parts.join('')+parts.join(''));
+  var snap=DATA.editions[0].marketSnapshot;
+  var parts=[];
+  snap.indices.forEach(function(i){ var cls=i.dir==='up'?'u':'d'; var ar=i.dir==='up'?'▲':'▼'; parts.push('<span class="tk"><b>'+esc(i.name)+'</b> '+esc(i.value)+' <span class="'+cls+'">'+ar+' '+esc(i.change)+'</span></span>'); });
+  parts.push('<span class="tk">TURNOVER <b>'+esc(snap.turnover)+'</b></span>');
+  parts.push('<span class="tk">BREADTH <b>'+esc(snap.breadth)+'</b></span>');
+  parts.push('<span class="tk" style="color:var(--amber)">● '+esc(snap.asOf)+'</span>');
+  document.getElementById('ticker').innerHTML=parts.join('')+parts.join('');
 }
 
 function buildNav(){
-  // dates
-  const dn=document.getElementById('dateNav'); dn.innerHTML='';
-  DATA.editions.forEach(ed=>{
-    const b=document.createElement('button'); b.className='navbtn'+(ed.date===activeDate?' active':'');
-    b.innerHTML=`<span class="lbl"><span>${ed.displayDate}</span></span><span class="ct">${ed.items.length}</span>`;
-    b.onclick=()=>{activeDate=ed.date;activeCat="ALL";query="";document.getElementById('search').value="";location.hash='date-'+ed.date;document.getElementById('side').classList.remove('open');buildNav();render();window.scrollTo({top:0,behavior:'smooth'});};
+  var dn=document.getElementById('dateNav'); dn.innerHTML='';
+  DATA.editions.forEach(function(ed){
+    var b=document.createElement('button'); b.className='navbtn'+(ed.date===activeDate?' active':'');
+    b.innerHTML='<span class="lbl"><span>'+esc(ed.displayDate)+'</span></span><span class="ct">'+ed.items.length+'</span>';
+    b.onclick=function(){activeDate=ed.date;activeCat="ALL";query="";document.getElementById('search').value="";location.hash='date-'+ed.date;document.getElementById('side').classList.remove('open');buildNav();render();window.scrollTo({top:0,behavior:'smooth'});};
     dn.appendChild(b);
   });
-  // categories
-  const cn=document.getElementById('catNav'); cn.innerHTML='';
-  const ed=DATA.editions.find(e=>e.date===activeDate)||DATA.editions[0];
-  const counts={}; ed.items.forEach(i=>counts[i.category]=(counts[i.category]||0)+1);
-  const all=document.createElement('button'); all.className='navbtn'+(activeCat==='ALL'?' active':'');
-  all.innerHTML=`<span class="lbl"><span class="cat-dot" style="background:var(--amber)"></span><span>All categories</span></span><span class="ct">${ed.items.length}</span>`;
-  all.onclick=()=>{activeCat='ALL';buildNav();render();};
+  var cn=document.getElementById('catNav'); cn.innerHTML='';
+  var ed=DATA.editions.filter(function(e){return e.date===activeDate;})[0]||DATA.editions[0];
+  var counts={}; ed.items.forEach(function(i){counts[i.category]=(counts[i.category]||0)+1;});
+  var all=document.createElement('button'); all.className='navbtn'+(activeCat==='ALL'?' active':'');
+  all.innerHTML='<span class="lbl"><span class="cat-dot" style="background:var(--amber)"></span><span>All categories</span></span><span class="ct">'+ed.items.length+'</span>';
+  all.onclick=function(){activeCat='ALL';buildNav();render();};
   cn.appendChild(all);
-  CAT_ORDER.forEach(c=>{ if(!counts[c])return;
-    const b=document.createElement('button'); b.className='navbtn'+(activeCat===c?' active':'');
-    b.innerHTML=`<span class="lbl"><span class="cat-dot" style="background:${CAT_COLOR[c]}"></span><span>${CAT_LABEL[c]}</span></span><span class="ct">${counts[c]}</span>`;
-    b.onclick=()=>{activeCat=c;buildNav();render();};
+  CAT_ORDER.forEach(function(c){ if(!counts[c])return;
+    var b=document.createElement('button'); b.className='navbtn'+(activeCat===c?' active':'');
+    b.innerHTML='<span class="lbl"><span class="cat-dot" style="background:'+CAT_COLOR[c]+'"></span><span>'+esc(CAT_LABEL[c])+'</span></span><span class="ct">'+counts[c]+'</span>';
+    b.onclick=function(){activeCat=c;buildNav();render();};
     cn.appendChild(b);
   });
 }
 
 function matches(item){
   if(!query) return true;
-  const q=query.toLowerCase();
-  return (item.title+' '+item.bullets.join(' ')+' '+(item.tickers||[]).join(' ')+' '+item.category).toLowerCase().includes(q);
+  var q=query.toLowerCase();
+  return (item.title+' '+item.bullets.join(' ')+' '+(item.tickers||[]).join(' ')+' '+item.category).toLowerCase().indexOf(q)>=0;
 }
 
 function cardHTML(item){
-  const t=(item.tickers||[]).map(x=>`<span class="chip">${esc(x)}</span>`).join('');
-  const s=(item.sources||[]).map(x=>`<a class="src" href="${esc(x.url)}" target="_blank" rel="noopener">${linkIcon}${esc(x.label)}</a>`).join('');
-  const lis=item.bullets.map(b=>`<li>${hl(b)}</li>`).join('');
-  return `<article class="card ${item.category}" id="${item.id}">
-    <div class="card-top">
-      <span class="badge">${esc(CAT_LABEL[item.category]||item.category)}</span>
-      <span class="permalink" onclick="copyLink('${item.id}')">🔗 permalink</span>
-    </div>
-    <h4>${hl(item.title)}</h4>
-    <ul>${lis}</ul>
-    ${t?`<div class="tickers">${t}</div>`:''}
-    ${s?`<div class="sources"><div class="sl">Sources</div>${s}</div>`:''}
-  </article>`;
+  var t=(item.tickers||[]).map(function(x){return '<span class="chip">'+esc(x)+'</span>';}).join('');
+  var s=(item.sources||[]).map(function(x){return '<a class="src" href="'+esc(x.url)+'" target="_blank" rel="noopener">'+linkIcon+esc(x.label)+'</a>';}).join('');
+  var lis=item.bullets.map(function(b){return '<li>'+hl(b)+'</li>';}).join('');
+  return '<article class="card '+item.category+'" id="'+item.id+'">'
+    +'<div class="card-top"><span class="badge">'+esc(CAT_LABEL[item.category]||item.category)+'</span>'
+    +'<span class="permalink" onclick="copyLink(\''+item.id+'\')">&#128279; permalink</span></div>'
+    +'<h4>'+hl(item.title)+'</h4><ul>'+lis+'</ul>'
+    +(t?'<div class="tickers">'+t+'</div>':'')
+    +(s?'<div class="sources"><div class="sl">Sources</div>'+s+'</div>':'')
+    +'</article>';
 }
 
 function copyLink(id){
-  const url=location.origin+location.pathname+'#'+id;
-  navigator.clipboard&&navigator.clipboard.writeText(url);
+  var url=location.origin+location.pathname+'#'+id;
+  if(navigator.clipboard) navigator.clipboard.writeText(url);
   location.hash=id;
 }
 
 function render(){
-  const c=document.getElementById('content');
-  // Search mode: search across ALL editions
+  var c=document.getElementById('content');
   if(query){
-    let html='', total=0;
-    DATA.editions.forEach(ed=>{
-      const hits=ed.items.filter(matches);
+    var html='', total=0;
+    DATA.editions.forEach(function(ed){
+      var hits=ed.items.filter(matches);
       if(!hits.length)return; total+=hits.length;
-      html+=`<div class="cat-head" style="--accent:var(--amber)">${ed.displayDate} — ${hits.length} result(s)</div>`;
+      html+='<div class="cat-head" style="--accent:var(--amber)">'+esc(ed.displayDate)+' &mdash; '+hits.length+' result(s)</div>';
       html+=hits.map(cardHTML).join('');
     });
-    c.innerHTML=`<div class="count-note">Search results for “${esc(query)}” across all ${DATA.editions.length} edition(s): <b style="color:var(--amber)">${total}</b> item(s).</div>`+(html||`<div class="empty"><b>No matches</b>Try a different keyword or clear the search.</div>`);
+    c.innerHTML='<div class="count-note">Search results for "'+esc(query)+'" across all '+DATA.editions.length+' edition(s): <b style="color:var(--amber)">'+total+'</b> item(s).</div>'+(html||'<div class="empty"><b>No matches</b>Try a different keyword or clear the search.</div>');
     return;
   }
-  const ed=DATA.editions.find(e=>e.date===activeDate)||DATA.editions[0];
-  let items=ed.items.slice();
-  if(activeCat!=='ALL') items=items.filter(i=>i.category===activeCat);
-  // order by category
-  items.sort((a,b)=>CAT_ORDER.indexOf(a.category)-CAT_ORDER.indexOf(b.category));
-  const snap=ed.marketSnapshot;
-  let snapHTML='<div class="snap">';
-  snap.indices.forEach(i=>{ const col=i.dir==='up'?'var(--up)':'var(--down)'; const ar=i.dir==='up'?'▲':'▼';
-    snapHTML+=`<div class="snap-card"><div class="k">${esc(i.name)}</div><div class="v">${esc(i.value)}</div><div class="c" style="color:${col}">${ar} ${esc(i.change)}</div></div>`; });
-  snapHTML+=`<div class="snap-card full"><div><div class="k">Turnover</div><div class="v">${esc(snap.turnover)}</div></div><div><div class="k">Market breadth</div><div class="v">${esc(snap.breadth)}</div></div><div><div class="k">As of</div><div class="v" style="color:var(--amber2)">${esc(snap.asOf)}</div></div></div>`;
+  var ed=DATA.editions.filter(function(e){return e.date===activeDate;})[0]||DATA.editions[0];
+  var items=ed.items.slice();
+  if(activeCat!=='ALL') items=items.filter(function(i){return i.category===activeCat;});
+  items.sort(function(a,b){return CAT_ORDER.indexOf(a.category)-CAT_ORDER.indexOf(b.category);});
+  var snap=ed.marketSnapshot;
+  var snapHTML='<div class="snap">';
+  snap.indices.forEach(function(i){ var col=i.dir==='up'?'var(--up)':'var(--down)'; var ar=i.dir==='up'?'▲':'▼';
+    snapHTML+='<div class="snap-card"><div class="k">'+esc(i.name)+'</div><div class="v">'+esc(i.value)+'</div><div class="c" style="color:'+col+'">'+ar+' '+esc(i.change)+'</div></div>'; });
+  snapHTML+='<div class="snap-card full"><div><div class="k">Turnover</div><div class="v">'+esc(snap.turnover)+'</div></div><div><div class="k">Market breadth</div><div class="v">'+esc(snap.breadth)+'</div></div><div><div class="k">As of</div><div class="v" style="color:var(--amber2)">'+esc(snap.asOf)+'</div></div></div>';
   snapHTML+='</div>';
 
-  let body='';
+  var body='';
   if(activeCat==='ALL'){
-    CAT_ORDER.forEach(cat=>{
-      const grp=items.filter(i=>i.category===cat);
+    CAT_ORDER.forEach(function(cat){
+      var grp=items.filter(function(i){return i.category===cat;});
       if(!grp.length)return;
-      body+=`<div class="cat-head ${cat}">${CAT_LABEL[cat]} · ${grp.length}</div>`;
+      body+='<div class="cat-head '+cat+'">'+esc(CAT_LABEL[cat])+' &middot; '+grp.length+'</div>';
       body+=grp.map(cardHTML).join('');
     });
   } else {
     body=items.map(cardHTML).join('');
   }
 
-  c.innerHTML=`<div class="edition-head">
-      <h2>${ed.displayDate}</h2>
-      <span class="meta">Morning briefing · ${ed.items.length} stories</span>
-      <span class="ed-num">EDITION ${esc(ed.date)}</span>
-    </div>${snapHTML}${body||'<div class="empty"><b>No items in this categ
+  c.innerHTML='<div class="edition-head"><h2>'+esc(ed.displayDate)+'</h2>'
+    +'<span class="meta">Morning briefing &middot; '+ed.items.length+' stories</span>'
+    +'<span class="ed-num">EDITION '+esc(ed.date)+'</span></div>'
+    +snapHTML+(body||'<div class="empty"><b>No items in this category</b></div>');
+}
+
+document.getElementById('search').addEventListener('input',function(e){query=e.target.value.trim();render();});
+document.getElementById('clearBtn').addEventListener('click',function(){query='';document.getElementById('search').value='';render();});
+window.addEventListener('hashchange',function(){var h=location.hash.replace('#','');if(h.indexOf('date-')===0){activeDate=h.slice(5);buildNav();render();}});
+load();
+</script>
+</body>
+</html>
