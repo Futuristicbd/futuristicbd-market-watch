@@ -199,23 +199,29 @@ function clock(){
 }
 setInterval(clock,1000);
 
+function showErr(msg){ var c=document.getElementById('content'); if(c) c.innerHTML='<div class="empty"><b>Load problem</b>'+msg+'</div>'; }
 async function load(){
-  try{
-    const r=await fetch('./data.json?_='+Date.now());
-    DATA=await r.json();
-  }catch(e){
-    document.getElementById('content').innerHTML='<div class="empty"><b>Could not load data.json</b>Place data.json next to index.html.</div>';
-    return;
+  var raw=null, lastErr='';
+  var paths=['./data.json?_='+Date.now(), '/data.json?_='+Date.now()];
+  for(var i=0;i<paths.length;i++){
+    try{
+      var r=await fetch(paths[i],{cache:'no-store'});
+      if(!r.ok){ lastErr='HTTP '+r.status+' on '+paths[i]; continue; }
+      raw=await r.text();
+      DATA=JSON.parse(raw);
+      lastErr='';
+      break;
+    }catch(e){ lastErr=(e&&e.message)||String(e); }
   }
-  clock();
-  buildTicker();
-  buildNav();
-  // hash routing
-  const h=location.hash.replace('#','');
-  if(h.startsWith('date-')){ activeDate=h.slice(5); }
-  else { activeDate=DATA.editions[0].date; }
-  render();
-  if(h && !h.startsWith('date-')){ setTimeout(()=>{const el=document.getElementById(h); if(el){el.scrollIntoView({block:'center'});}},120); }
+  if(!DATA){ showErr('Could not load data.json — '+lastErr); return; }
+  try{
+    clock(); buildTicker(); buildNav();
+    var h=location.hash.replace('#','');
+    if(h.indexOf('date-')===0){ activeDate=h.slice(5); }
+    else { activeDate=DATA.editions[0].date; }
+    render();
+    if(h && h.indexOf('date-')!==0){ setTimeout(function(){var el=document.getElementById(h); if(el){el.scrollIntoView({block:'center'});}},120); }
+  }catch(e){ showErr('Render error: '+((e&&e.message)||e)); console.error(e); }
 }
 
 function buildTicker(){
@@ -323,13 +329,4 @@ function render(){
       <h2>${ed.displayDate}</h2>
       <span class="meta">Morning briefing · ${ed.items.length} stories</span>
       <span class="ed-num">EDITION ${esc(ed.date)}</span>
-    </div>${snapHTML}${body||'<div class="empty"><b>No items in this category</b></div>'}`;
-}
-
-document.getElementById('search').addEventListener('input',e=>{query=e.target.value.trim();render();});
-document.getElementById('clearBtn').addEventListener('click',()=>{query='';document.getElementById('search').value='';render();});
-window.addEventListener('hashchange',()=>{const h=location.hash.replace('#','');if(h.startsWith('date-')){activeDate=h.slice(5);buildNav();render();}});
-load();
-</script>
-</body>
-</html>
+    </div>${snapHTML}${body||'<div class="empty"><b>No items in this categ
