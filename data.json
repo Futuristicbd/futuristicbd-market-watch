@@ -2,18 +2,319 @@
   "site": {
     "name": "FuturisticBD Market Watch",
     "tagline": "Daily Bangladesh capital-market intelligence · price-sensitive, policy, macro & global",
-    "updatedAt": "2026-06-05T09:30:00+06:00"
+    "updatedAt": "2026-06-09T23:48:52+06:00"
   },
   "editions": [
+    {
+      "date": "2026-06-09",
+      "displayDate": "Tuesday, June 9, 2026",
+      "marketSnapshot": {
+        "asOf": "DSE close, Monday, June 8, 2026 (last fully reported session; June 9 figures pending)",
+        "indices": [
+          {
+            "name": "DSEX",
+            "value": "5,482",
+            "change": "-33",
+            "dir": "down"
+          },
+          {
+            "name": "DS30",
+            "value": "2,069",
+            "change": "-18",
+            "dir": "down"
+          },
+          {
+            "name": "DSES (Shariah)",
+            "value": "1,058",
+            "change": "-9",
+            "dir": "down"
+          }
+        ],
+        "turnover": "Tk 1,072 crore (down 30% on the session)",
+        "breadth": "102 advanced · 247 declined · 44 unchanged"
+      },
+      "items": [
+        {
+          "id": "2026-06-09-beximco-islami-circuit",
+          "category": "PRICE-SENSITIVE",
+          "title": "Beximco, Islami Bank crash to lower circuit on first floor-free session",
+          "bullets": [
+            "First trading day without floor prices (effective 9 June): Beximco fell 9.99% to ~Tk99.1 and Islami Bank dropped 9.81% to ~Tk29.4 within minutes of the open.",
+            "Massive order imbalance — ~9.30 crore Beximco shares offered at the 9.99% discount with no buyers; ~16 lakh Islami Bank shares offered at 9.81% off with no bids — forced trading halts in both.",
+            "Impact: the unwinding of long-suspended floor prices (in place since 28 July 2022) is letting both heavyweights re-price toward market levels; expect continued circuit-limit moves and index drag until a clearing price is found."
+          ],
+          "tickers": [
+            "BEXIMCO",
+            "ISLAMIBANK"
+          ],
+          "sources": [
+            {
+              "label": "TBS — Beximco, Islami Bank hit lower circuit as selling pressure overwhelms market",
+              "url": "https://www.tbsnews.net/economy/stocks/beximco-islami-bank-hit-lower-circuit-selling-pressure-overwhelms-market-1457771"
+            }
+          ]
+        },
+        {
+          "id": "2026-06-09-dsex-snaps-streak",
+          "category": "PRICE-SENSITIVE",
+          "title": "DSEX snaps 10-day winning streak on pre-budget profit-taking (8 June close)",
+          "bullets": [
+            "DSEX shed 33 pts (-0.61%) to 5,482; DS30 -18 to 2,069, ending an impressive 10-session rally as investors locked in gains ahead of the national budget.",
+            "Breadth bearish: 247 decliners vs 102 gainers, 44 unchanged; ~Tk1,600cr wiped from market cap in one session.",
+            "Turnover fell 30% to Tk1,072cr. Heavyweight drags: Square Pharma, Beximco Pharma, BRAC Bank, LafargeHolcim, BAT BC. General insurance led turnover (19.2%); Anwar Galvanizing topped gainers (+~10%).",
+            "CSE's CASPI also fell 84 pts to 15,314; turnover there -24% to Tk43cr."
+          ],
+          "tickers": [
+            "DSEX",
+            "DS30",
+            "SQURPHARMA",
+            "BXPHARMA",
+            "BRACBANK",
+            "LHBL",
+            "BATBC"
+          ],
+          "sources": [
+            {
+              "label": "TBS — DSEX snaps 10-day winning streak amid pre-budget profit-taking",
+              "url": "https://www.tbsnews.net/economy/stocks/dsex-snaps-10-day-winning-streak-amid-pre-budget-profit-taking-1457596"
+            }
+          ]
+        },
+        {
+          "id": "2026-06-09-bsec-floor-removal",
+          "category": "POLICY",
+          "title": "BSEC scraps last floor prices on Beximco and Islami Bank",
+          "bullets": [
+            "At a special meeting on 8 June, BSEC withdrew the floor price on Beximco (last floor Tk110.10) and Islami Bank (Tk32.60), effective 9 June — the final two stocks under the regime imposed on 28 July 2022.",
+            "Completes a phased exit begun in January 2024; the DSE Brokers Association (DBA) credited the regulator with restoring a free market.",
+            "Impact: removes a long-standing distortion and should improve price discovery and index integrity over time, but triggers near-term sharp downside as suppressed prices reset."
+          ],
+          "tickers": [
+            "BEXIMCO",
+            "ISLAMIBANK"
+          ],
+          "sources": [
+            {
+              "label": "TBS — BSEC lifts minimum price cap on Beximco, Islami Bank stocks",
+              "url": "https://www.tbsnews.net/economy/stocks/bsec-removes-floor-price-beximco-and-islami-bank-shares-1457311"
+            },
+            {
+              "label": "BSS — DBA credits BSEC for lifting floor prices",
+              "url": "https://www.bssnews.net/business/393846"
+            }
+          ]
+        },
+        {
+          "id": "2026-06-09-bsec-direct-listing",
+          "category": "POLICY",
+          "title": "New BSEC chief vows 'aggressive' push for direct listing of big firms",
+          "bullets": [
+            "The newly installed BSEC chair pledged an aggressive drive to bring large, profitable companies to market via direct listing to deepen the bourse and improve quality of supply.",
+            "Sentiment around the leadership change had earlier driven turnover to a 22-month high and a 70-point welcome surge for the index.",
+            "Impact: credible reform signalling supports medium-term confidence, though the budget overhang and floor-price unwind are dominating near-term tape."
+          ],
+          "tickers": [],
+          "sources": [
+            {
+              "label": "TBS — BSEC chief vows 'aggressive' push for direct listing of big firms",
+              "url": "https://www.tbsnews.net/economy/stocks/bsec-chief-vows-aggressive-push-direct-listing-big-firms-deepen-market-1456701"
+            },
+            {
+              "label": "TBS — Turnover hits 22-month high on new BSEC hopes",
+              "url": "https://www.tbsnews.net/economy/stocks/turnover-hits-22-month-high-new-bsec-hopes-1456676"
+            }
+          ]
+        },
+        {
+          "id": "2026-06-09-islami-bank-withdrawals",
+          "category": "COMPANY",
+          "title": "Islami Bank bleeds Tk4,240cr deposits; seeks Tk10,000cr BB liquidity",
+          "bullets": [
+            "Deposits fell from Tk1,84,382cr (31 May) to Tk1,80,141cr (7 June) — a Tk4,240cr, seven-day drain — amid protests against the appointment of ex-BB deputy governor Khurshid Alam as chairman.",
+            "Current-account balance at the central bank reportedly slid from over Tk7,015cr to ~Tk2,600cr; the bank has requested Tk10,000cr in special liquidity support from Bangladesh Bank.",
+            "Impact: governance turmoil at the country's largest private bank pressures its share price (now floor-free) and feeds broader banking-sector risk sentiment."
+          ],
+          "tickers": [
+            "ISLAMIBANK"
+          ],
+          "sources": [
+            {
+              "label": "TBS — Islami Bank faces withdrawal pressure: Tk3,500cr taken out in 5 days",
+              "url": "https://www.tbsnews.net/economy/banking/islami-bank-faces-withdrawal-pressure-tk3500cr-taken-out-5-days-1456801"
+            },
+            {
+              "label": "Dhaka Tribune — Islami Bank asks BB for Tk10,000cr liquidity support",
+              "url": "https://www.dhakatribune.com/business/banks/412120/islami-bank-asks-bb-for-10-000c-liquidity-support"
+            }
+          ]
+        },
+        {
+          "id": "2026-06-09-stanchart-ceo",
+          "category": "COMPANY",
+          "title": "Naser Ezaz Bijoy resigns as Standard Chartered Bangladesh CEO",
+          "bullets": [
+            "Long-serving CEO Naser Ezaz Bijoy has stepped down from the helm of Standard Chartered Bangladesh, the country's leading foreign bank.",
+            "Leadership transition at a major trade-finance and custody player is watched closely by listed-market participants given StanChart's institutional footprint.",
+            "Impact: limited direct equity effect (SCB is unlisted locally) but signals continued churn in senior banking leadership."
+          ],
+          "tickers": [],
+          "sources": [
+            {
+              "label": "TBS — Naser Ezaz steps down from StanChart Bangladesh CEO role",
+              "url": "https://www.tbsnews.net/economy/banking/naser-ezaz-bijoy-resigns-ceo-standard-chartered-bangladesh-1457256"
+            }
+          ]
+        },
+        {
+          "id": "2026-06-09-standard-islami-gift",
+          "category": "COMPANY",
+          "title": "Standard Islami Bank director to receive 50.58 lakh shares as family gift",
+          "bullets": [
+            "A director of Standard Islami Bank (ex-Standard Bank) is set to receive 50.58 lakh shares transferred as a family gift, a non-market transmission disclosed to the exchange.",
+            "Such intra-family transfers do not change the sponsor block's overall holding but are routine disclosure events monitored for insider-ownership shifts.",
+            "Impact: neutral for float and price; informational for governance/ownership tracking."
+          ],
+          "tickers": [
+            "SBACBANK"
+          ],
+          "sources": [
+            {
+              "label": "TBS — Standard Islami Bank director to receive 50.58 lakh shares as family gift",
+              "url": "https://www.tbsnews.net/economy/stocks/standard-islami-bank-director-receive-5058-lakh-shares-family-gift-1456686"
+            }
+          ]
+        },
+        {
+          "id": "2026-06-09-budget-ait-cuts",
+          "category": "POLICY",
+          "title": "FY2026-27 budget: NBR may cut AIT/source tax across 19 sectors",
+          "bullets": [
+            "Ahead of the FY2026-27 national budget, NBR is reportedly weighing cuts to advance income tax (AIT) and source tax across some 19 sectors to ease business costs.",
+            "Prior budgets sweetened the capital market via a wider listed/unlisted corporate-tax gap (to 7.5%), a lower brokerage-turnover AIT (0.05%→0.03%) and a reduced merchant-bank tax rate.",
+            "Impact: pre-budget caution is capping the rally; confirmation of market-friendly measures could re-ignite buying, while disappointment risks further profit-taking."
+          ],
+          "tickers": [],
+          "sources": [
+            {
+              "label": "TBS — 19 sectors may see cuts in AIT, source tax",
+              "url": "https://www.tbsnews.net/nbr/19-sectors-may-see-cuts-ait-source-tax-1456836"
+            },
+            {
+              "label": "The Daily Star — Bangladesh National Budget 2026-27",
+              "url": "https://www.thedailystar.net/business/economy/news/big-numbers-tight-choices-4177311"
+            }
+          ]
+        },
+        {
+          "id": "2026-06-09-forex-remittance",
+          "category": "MACRO",
+          "title": "Reserves and remittances stay strong heading into FY26 close",
+          "bullets": [
+            "Record remittance momentum: ~$2.98bn in the first 23 days of May (up ~41% YoY); cumulative FY26 receipts (through 23 May) hit ~$32.31bn vs ~$26.64bn a year earlier.",
+            "Gross reserves have climbed sharply — recently around $34bn (highest since Nov 2022 on gross basis) / above $29bn under the IMF (BPM6) method — aided by the strong inflows.",
+            "Taka broadly stable near ~Tk122.8/USD. Impact: a healthier external position supports macro stability, eases import pressure and underpins banking-sector liquidity."
+          ],
+          "tickers": [],
+          "sources": [
+            {
+              "label": "The Daily Star — Forex reserves cross $29 billion under IMF calculation",
+              "url": "https://www.thedailystar.net/business/news/forex-reserves-cross-29-billion-month-imf-calculation-4102131"
+            },
+            {
+              "label": "TBS — Bangladesh's forex reserves rise to $29.86b",
+              "url": "https://www.tbsnews.net/economy/bangladeshs-forex-reserves-rise-2986b-1364416"
+            }
+          ]
+        },
+        {
+          "id": "2026-06-09-bb-policy-rate",
+          "category": "MACRO",
+          "title": "Bangladesh Bank holds policy rate at 10% to anchor inflation",
+          "bullets": [
+            "BB kept the policy (repo) rate at 10% for H2 FY26, maintaining a firm contractionary stance; SLF at 11.50% and SDF trimmed to 8.00%.",
+            "Inflation target for FY26 is 6.5%; headline had eased to ~5.7% by mid-2025 from 9%+ in 2023. A rate cut is contingent on real policy rate reaching ~3%.",
+            "NPL clean-up continues, with targets to push the ratio below 10% for state banks and 5% for private banks. Impact: higher-for-longer rates weigh on rate-sensitive banks and NBFIs but support taka stability."
+          ],
+          "tickers": [],
+          "sources": [
+            {
+              "label": "The Daily Star — BB holds policy rate at 10% in tough trade-off",
+              "url": "https://www.thedailystar.net/business/economy/news/bb-holds-policy-rate-10-tough-trade-inflation-vs-growth-4102396"
+            },
+            {
+              "label": "BSS — BB holds policy rate at 10pc for H2 FY26",
+              "url": "https://www.bssnews.net/business/359149"
+            }
+          ]
+        },
+        {
+          "id": "2026-06-09-oil-hormuz",
+          "category": "GLOBAL",
+          "title": "Oil whipsaws as Hormuz blockade and Israel-Iran flare-up roil markets",
+          "bullets": [
+            "Crude fell to ~$87.7/bbl on 9 June (-3.93% on the day) after Brent had spiked above $98 earlier in the month; the Strait of Hormuz remains effectively closed under a US-Iran dual blockade, disrupting crude, fuel and LNG flows.",
+            "Israel and Iran struck each other for the first time since their ceasefire, keeping a geopolitical risk premium in the market despite weak Chinese demand (imports near 8-yr lows).",
+            "Impact for Bangladesh: elevated/volatile oil lifts the import bill and pressures the taka, power-sector subsidies and inflation; a sustained spike would be a clear negative for equities."
+          ],
+          "tickers": [],
+          "sources": [
+            {
+              "label": "TradingEconomics — Brent crude oil price",
+              "url": "https://tradingeconomics.com/commodity/brent-crude-oil"
+            },
+            {
+              "label": "TBS — Israel and Iran strike each other for first time since ceasefire",
+              "url": "https://www.tbsnews.net/worldbiz/middle-east/israel-and-iran-strike-each-other-first-time-ceasefire-1457151"
+            }
+          ]
+        },
+        {
+          "id": "2026-06-09-fed-hold",
+          "category": "GLOBAL",
+          "title": "Fed seen holding at 3.50-3.75% at June 16-17 FOMC",
+          "bullets": [
+            "Markets expect no change at the 16-17 June FOMC, with the funds range steady at 3.50-3.75% amid above-target CPI and a resilient labour market (May payrolls +172k, unemployment 4.3%).",
+            "Some forecasters (e.g., Goldman Sachs) now see no 2026 cuts and possible removal of easing-bias language.",
+            "Impact: higher-for-longer US rates keep the dollar firm and pressure emerging-market currencies, including the taka, and can curb foreign portfolio appetite for frontier markets like Bangladesh."
+          ],
+          "tickers": [],
+          "sources": [
+            {
+              "label": "Federal Reserve — FOMC statement, April 29, 2026",
+              "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260429a.htm"
+            },
+            {
+              "label": "Federal Reserve — FOMC meeting calendar",
+              "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
+            }
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-06-05",
       "displayDate": "Friday, June 5, 2026",
       "marketSnapshot": {
         "asOf": "DSE close, Thursday June 4, 2026",
         "indices": [
-          { "name": "DSEX", "value": "5,442", "change": "+35", "dir": "up" },
-          { "name": "DS30", "value": "2,057", "change": "+7", "dir": "up" },
-          { "name": "DSES (Shariah)", "value": "1,099", "change": "+10", "dir": "up" }
+          {
+            "name": "DSEX",
+            "value": "5,442",
+            "change": "+35",
+            "dir": "up"
+          },
+          {
+            "name": "DS30",
+            "value": "2,057",
+            "change": "+7",
+            "dir": "up"
+          },
+          {
+            "name": "DSES (Shariah)",
+            "value": "1,099",
+            "change": "+10",
+            "dir": "up"
+          }
         ],
         "turnover": "Tk 1,279 crore (8-month high, +18.43% DoD)",
         "breadth": "243 advanced · 98 declined · 49 unchanged"
@@ -30,9 +331,22 @@
             "Sector leadership: Services +3.7%, Paper & Printing +3.2%, Financial Institutions +2.9%.",
             "Watch: rally is concentrated in speculative low-caps on revival-fund optimism — quality of the move is questionable; momentum can reverse fast."
           ],
-          "tickers": ["DSEX", "REGENTTEX", "PRIMEFIN", "SONARGAON", "MEGHNAPET", "BIFC", "NURANI", "NEWLINE", "EMERALDOIL"],
+          "tickers": [
+            "DSEX",
+            "REGENTTEX",
+            "PRIMEFIN",
+            "SONARGAON",
+            "MEGHNAPET",
+            "BIFC",
+            "NURANI",
+            "NEWLINE",
+            "EMERALDOIL"
+          ],
           "sources": [
-            { "label": "TBS — Distressed stocks surge as revival fund news fuels rally", "url": "https://www.tbsnews.net/economy/stocks/distressed-stocks-surge-revival-fund-news-fuels-market-rally-1453611" }
+            {
+              "label": "TBS — Distressed stocks surge as revival fund news fuels rally",
+              "url": "https://www.tbsnews.net/economy/stocks/distressed-stocks-surge-revival-fund-news-fuels-market-rally-1453611"
+            }
           ]
         },
         {
@@ -43,9 +357,14 @@
             "In response to a DSE query dated June 2, 2026, the company stated there is no undisclosed price-sensitive information explaining the recent unusual price hike and volume increase.",
             "Implication: the run-up appears speculative — trade with caution."
           ],
-          "tickers": ["SONARGAON"],
+          "tickers": [
+            "SONARGAON"
+          ],
           "sources": [
-            { "label": "DSE — Today's News (display_news)", "url": "https://www.dsebd.org/display_news.php" }
+            {
+              "label": "DSE — Today's News (display_news)",
+              "url": "https://www.dsebd.org/display_news.php"
+            }
           ]
         },
         {
@@ -56,9 +375,14 @@
             "Shares held by the late Mr. Mizanur Rahman Sinha, Sponsor Director and Managing Director, were transmitted to the BO accounts of his nominees on June 3, 2026.",
             "Governance note: succession at the sponsor/MD level — monitor for any subsequent board reconstitution announcements."
           ],
-          "tickers": ["ACMELAB"],
+          "tickers": [
+            "ACMELAB"
+          ],
           "sources": [
-            { "label": "DSE — Today's News (display_news)", "url": "https://www.dsebd.org/display_news.php" }
+            {
+              "label": "DSE — Today's News (display_news)",
+              "url": "https://www.dsebd.org/display_news.php"
+            }
           ]
         },
         {
@@ -69,9 +393,14 @@
             "Global Insurance will hold a board meeting on June 11, 2026 at 3:00 PM to consider audited financial statements for the year ended December 31, 2025 (and likely a dividend recommendation).",
             "Event to watch for EPS/NAV and dividend signal."
           ],
-          "tickers": ["GLOBALINS"],
+          "tickers": [
+            "GLOBALINS"
+          ],
           "sources": [
-            { "label": "DSE — Today's News (display_news)", "url": "https://www.dsebd.org/display_news.php" }
+            {
+              "label": "DSE — Today's News (display_news)",
+              "url": "https://www.dsebd.org/display_news.php"
+            }
           ]
         },
         {
@@ -83,10 +412,18 @@
             "SOUTHEASTB has set a record date for a stock dividend.",
             "Action: confirm record dates before buying for dividend entitlement; ex-dividend price adjustments apply."
           ],
-          "tickers": ["SOUTHEASTB"],
+          "tickers": [
+            "SOUTHEASTB"
+          ],
           "sources": [
-            { "label": "LankaBD — Corporate events calendar", "url": "https://lankabd.com/Details/Event?fromDate=2026-06-03&toDate=2026-06-03&catName=Today&callFrom=menu" },
-            { "label": "DSE — Last 7 days news (AmarStock mirror)", "url": "https://www.amarstock.com/dse-last-7-days-news" }
+            {
+              "label": "LankaBD — Corporate events calendar",
+              "url": "https://lankabd.com/Details/Event?fromDate=2026-06-03&toDate=2026-06-03&catName=Today&callFrom=menu"
+            },
+            {
+              "label": "DSE — Last 7 days news (AmarStock mirror)",
+              "url": "https://www.amarstock.com/dse-last-7-days-news"
+            }
           ]
         },
         {
@@ -102,8 +439,14 @@
           ],
           "tickers": [],
           "sources": [
-            { "label": "BSS — BSEC chief unveils reform agenda", "url": "https://www.bssnews.net/business/392531" },
-            { "label": "BSEC official site", "url": "https://www.sec.gov.bd/" }
+            {
+              "label": "BSS — BSEC chief unveils reform agenda",
+              "url": "https://www.bssnews.net/business/392531"
+            },
+            {
+              "label": "BSEC official site",
+              "url": "https://www.sec.gov.bd/"
+            }
           ]
         },
         {
@@ -116,7 +459,10 @@
           ],
           "tickers": [],
           "sources": [
-            { "label": "Bangladesh Bank", "url": "https://www.bb.org.bd/" }
+            {
+              "label": "Bangladesh Bank",
+              "url": "https://www.bb.org.bd/"
+            }
           ]
         },
         {
@@ -132,8 +478,14 @@
           ],
           "tickers": [],
           "sources": [
-            { "label": "Dhaka Tribune — Budget FY27 tax net", "url": "https://www.dhakatribune.com/business/411407/budget-fy27-nbr-to-add-more-businesses-into-tax" },
-            { "label": "The Daily Star — High taxes & rates stifle investment", "url": "https://www.thedailystar.net/business/bangladesh-budget-2026-27/news/high-taxes-and-interest-rates-stifle-investment-4183741" }
+            {
+              "label": "Dhaka Tribune — Budget FY27 tax net",
+              "url": "https://www.dhakatribune.com/business/411407/budget-fy27-nbr-to-add-more-businesses-into-tax"
+            },
+            {
+              "label": "The Daily Star — High taxes & rates stifle investment",
+              "url": "https://www.thedailystar.net/business/bangladesh-budget-2026-27/news/high-taxes-and-interest-rates-stifle-investment-4183741"
+            }
           ]
         },
         {
@@ -147,8 +499,14 @@
           ],
           "tickers": [],
           "sources": [
-            { "label": "Financial Express — Inflation below 7% by mid-2026", "url": "https://thefinancialexpress.com.bd/economy/inflation-to-fall-below-7-per-cent-by-mid-2026-amid-tightening-policies-expects-govt" },
-            { "label": "Fibre2Fashion", "url": "https://www.fibre2fashion.com/news/economics/inflation-may-fall-below-7-by-jun-2026-bangladesh-s-interim-govt-307383-newsdetails.htm" }
+            {
+              "label": "Financial Express — Inflation below 7% by mid-2026",
+              "url": "https://thefinancialexpress.com.bd/economy/inflation-to-fall-below-7-per-cent-by-mid-2026-amid-tightening-policies-expects-govt"
+            },
+            {
+              "label": "Fibre2Fashion",
+              "url": "https://www.fibre2fashion.com/news/economics/inflation-may-fall-below-7-by-jun-2026-bangladesh-s-interim-govt-307383-newsdetails.htm"
+            }
           ]
         },
         {
@@ -162,8 +520,14 @@
           ],
           "tickers": [],
           "sources": [
-            { "label": "The Daily Star — Reserves cross $29bn (IMF method)", "url": "https://www.thedailystar.net/business/news/forex-reserves-cross-29-billion-month-imf-calculation-4102131" },
-            { "label": "The Daily Star — IMF expands support to $5.5b", "url": "https://www.thedailystar.net/business/news/reserves-edge-imf-expands-support-55b-3925006" }
+            {
+              "label": "The Daily Star — Reserves cross $29bn (IMF method)",
+              "url": "https://www.thedailystar.net/business/news/forex-reserves-cross-29-billion-month-imf-calculation-4102131"
+            },
+            {
+              "label": "The Daily Star — IMF expands support to $5.5b",
+              "url": "https://www.thedailystar.net/business/news/reserves-edge-imf-expands-support-55b-3925006"
+            }
           ]
         },
         {
@@ -177,7 +541,10 @@
           ],
           "tickers": [],
           "sources": [
-            { "label": "Chambers — Banking Regulation 2026 Bangladesh", "url": "https://practiceguides.chambers.com/practice-guides/banking-regulation-2026/bangladesh" }
+            {
+              "label": "Chambers — Banking Regulation 2026 Bangladesh",
+              "url": "https://practiceguides.chambers.com/practice-guides/banking-regulation-2026/bangladesh"
+            }
           ]
         },
         {
@@ -191,8 +558,14 @@
           ],
           "tickers": [],
           "sources": [
-            { "label": "EIA — Short-Term Energy Outlook (global oil)", "url": "https://www.eia.gov/outlooks/steo/report/global_oil.php" },
-            { "label": "IMF WEO April 2026 — Global economy in shadow of war", "url": "https://www.imf.org/en/publications/weo/issues/2026/04/14/world-economic-outlook-april-2026" }
+            {
+              "label": "EIA — Short-Term Energy Outlook (global oil)",
+              "url": "https://www.eia.gov/outlooks/steo/report/global_oil.php"
+            },
+            {
+              "label": "IMF WEO April 2026 — Global economy in shadow of war",
+              "url": "https://www.imf.org/en/publications/weo/issues/2026/04/14/world-economic-outlook-april-2026"
+            }
           ]
         },
         {
@@ -206,8 +579,14 @@
           ],
           "tickers": [],
           "sources": [
-            { "label": "IMF WEO April 2026 (Ch.1 PDF)", "url": "https://www.imf.org/-/media/files/publications/weo/2026/april/english/ch1.pdf" },
-            { "label": "IMF — WEO Spring Meetings 2026 briefing", "url": "https://www.imf.org/en/news/articles/2026/04/14/tr-04142026-press-briefing-transcript-world-economic-outlook-spring-meetings-2026" }
+            {
+              "label": "IMF WEO April 2026 (Ch.1 PDF)",
+              "url": "https://www.imf.org/-/media/files/publications/weo/2026/april/english/ch1.pdf"
+            },
+            {
+              "label": "IMF — WEO Spring Meetings 2026 briefing",
+              "url": "https://www.imf.org/en/news/articles/2026/04/14/tr-04142026-press-briefing-transcript-world-economic-outlook-spring-meetings-2026"
+            }
           ]
         }
       ]
