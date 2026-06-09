@@ -1,0 +1,216 @@
+{
+  "site": {
+    "name": "FuturisticBD Market Watch",
+    "tagline": "Daily Bangladesh capital-market intelligence · price-sensitive, policy, macro & global",
+    "updatedAt": "2026-06-05T09:30:00+06:00"
+  },
+  "editions": [
+    {
+      "date": "2026-06-05",
+      "displayDate": "Friday, June 5, 2026",
+      "marketSnapshot": {
+        "asOf": "DSE close, Thursday June 4, 2026",
+        "indices": [
+          { "name": "DSEX", "value": "5,442", "change": "+35", "dir": "up" },
+          { "name": "DS30", "value": "2,057", "change": "+7", "dir": "up" },
+          { "name": "DSES (Shariah)", "value": "1,099", "change": "+10", "dir": "up" }
+        ],
+        "turnover": "Tk 1,279 crore (8-month high, +18.43% DoD)",
+        "breadth": "243 advanced · 98 declined · 49 unchanged"
+      },
+      "items": [
+        {
+          "id": "2026-06-05-mkt",
+          "category": "PRICE-SENSITIVE",
+          "title": "Distressed & low-priced stocks lead rally as revival-fund news lifts DSE",
+          "bullets": [
+            "DSEX rose 35 pts to 5,442; DS30 +7 to 2,057; DSES +10 to 1,099. Turnover jumped to ~Tk1,279cr — the highest single day in eight months and up 18.43% on the session.",
+            "Breadth strongly positive: 243 advancers vs 98 decliners, 49 unchanged.",
+            "Top movers (mostly distressed/junk counters): Regent Textile +10%, Prime Finance +10%, Sonargaon Textiles +9.93%, Meghna Pet +9.89%, Bangladesh Industrial Finance +9.76%, Nurani Dyeing +9.68%, New Line Clothings +9.43%, Emerald Oil +9.18%.",
+            "Sector leadership: Services +3.7%, Paper & Printing +3.2%, Financial Institutions +2.9%.",
+            "Watch: rally is concentrated in speculative low-caps on revival-fund optimism — quality of the move is questionable; momentum can reverse fast."
+          ],
+          "tickers": ["DSEX", "REGENTTEX", "PRIMEFIN", "SONARGAON", "MEGHNAPET", "BIFC", "NURANI", "NEWLINE", "EMERALDOIL"],
+          "sources": [
+            { "label": "TBS — Distressed stocks surge as revival fund news fuels rally", "url": "https://www.tbsnews.net/economy/stocks/distressed-stocks-surge-revival-fund-news-fuels-market-rally-1453611" }
+          ]
+        },
+        {
+          "id": "2026-06-05-sonargaon",
+          "category": "PRICE-SENSITIVE",
+          "title": "SONARGAON: no undisclosed price-sensitive information behind price/volume spike",
+          "bullets": [
+            "In response to a DSE query dated June 2, 2026, the company stated there is no undisclosed price-sensitive information explaining the recent unusual price hike and volume increase.",
+            "Implication: the run-up appears speculative — trade with caution."
+          ],
+          "tickers": ["SONARGAON"],
+          "sources": [
+            { "label": "DSE — Today's News (display_news)", "url": "https://www.dsebd.org/display_news.php" }
+          ]
+        },
+        {
+          "id": "2026-06-05-acmelab",
+          "category": "PRICE-SENSITIVE",
+          "title": "ACMELAB: shares of late Sponsor Director & MD transmitted to nominees",
+          "bullets": [
+            "Shares held by the late Mr. Mizanur Rahman Sinha, Sponsor Director and Managing Director, were transmitted to the BO accounts of his nominees on June 3, 2026.",
+            "Governance note: succession at the sponsor/MD level — monitor for any subsequent board reconstitution announcements."
+          ],
+          "tickers": ["ACMELAB"],
+          "sources": [
+            { "label": "DSE — Today's News (display_news)", "url": "https://www.dsebd.org/display_news.php" }
+          ]
+        },
+        {
+          "id": "2026-06-05-globalins",
+          "category": "COMPANY",
+          "title": "GLOBALINS board meeting June 11 to consider FY2025 audited accounts",
+          "bullets": [
+            "Global Insurance will hold a board meeting on June 11, 2026 at 3:00 PM to consider audited financial statements for the year ended December 31, 2025 (and likely a dividend recommendation).",
+            "Event to watch for EPS/NAV and dividend signal."
+          ],
+          "tickers": ["GLOBALINS"],
+          "sources": [
+            { "label": "DSE — Today's News (display_news)", "url": "https://www.dsebd.org/display_news.php" }
+          ]
+        },
+        {
+          "id": "2026-06-05-dividends",
+          "category": "COMPANY",
+          "title": "FY2025 dividend & AGM calendar fills up for June–July",
+          "bullets": [
+            "Multiple listed firms have recommended FY2025 (year ended Dec 31, 2025) dividends with AGMs clustering in June–July: 10% cash (AGM June 29), 15% cash (AGM June 29), 100% / Tk10 per share final cash (virtual AGM June 10), and 29% cash (AGM July 27).",
+            "SOUTHEASTB has set a record date for a stock dividend.",
+            "Action: confirm record dates before buying for dividend entitlement; ex-dividend price adjustments apply."
+          ],
+          "tickers": ["SOUTHEASTB"],
+          "sources": [
+            { "label": "LankaBD — Corporate events calendar", "url": "https://lankabd.com/Details/Event?fromDate=2026-06-03&toDate=2026-06-03&catName=Today&callFrom=menu" },
+            { "label": "DSE — Last 7 days news (AmarStock mirror)", "url": "https://www.amarstock.com/dse-last-7-days-news" }
+          ]
+        },
+        {
+          "id": "2026-06-05-bsec",
+          "category": "POLICY",
+          "title": "New BSEC chairman Masud Khan unveils capital-market reform roadmap",
+          "bullets": [
+            "On June 4, 2026, newly-appointed BSEC chairman Masud Khan laid out a reform agenda focused on rebuilding investor confidence and moving toward an institution-driven emerging market.",
+            "Fair price discovery: no new floor prices will be imposed; existing floor mechanisms to be withdrawn gradually — a structurally important signal for free price movement.",
+            "Digitisation: IPO applications, rights issues, bond/sukuk approvals and licensing to shift to digital platforms.",
+            "Supply push: actively courting multinationals, state-owned enterprises and large local corporates to list.",
+            "Surveillance: real-time market-abuse detection system to be built with DSE, CSE and CDBL."
+          ],
+          "tickers": [],
+          "sources": [
+            { "label": "BSS — BSEC chief unveils reform agenda", "url": "https://www.bssnews.net/business/392531" },
+            { "label": "BSEC official site", "url": "https://www.sec.gov.bd/" }
+          ]
+        },
+        {
+          "id": "2026-06-05-bbfund",
+          "category": "POLICY",
+          "title": "Bangladesh Bank extends Tk200cr special capital-market fund to end-2026",
+          "bullets": [
+            "Scheduled banks' special Tk200 crore capital-market investment fund — originally due to expire Feb 2025 — has its term extended to December 31, 2026.",
+            "Supportive for market liquidity; ties into the revival-fund optimism driving the current rally."
+          ],
+          "tickers": [],
+          "sources": [
+            { "label": "Bangladesh Bank", "url": "https://www.bb.org.bd/" }
+          ]
+        },
+        {
+          "id": "2026-06-05-budget",
+          "category": "POLICY",
+          "title": "Budget FY27: aggressive revenue target, tax tweaks that touch investors",
+          "bullets": [
+            "Government is structuring a revenue target above Tk600,000 crore for FY27 — roughly a 20% jump — against a shortfall that has already breached Tk100,000 crore in the first nine months of FY26.",
+            "Under review: reinstating a 20% withholding tax on interest on foreign loans (previously withdrawn after pushback).",
+            "FBCCI opposes raising the corporate minimum tax from 0.60% to 1.00%.",
+            "Proposed VAT hike on online sales commission from 5% to 15% — negative for e-commerce names.",
+            "Higher taxes + elevated interest rates remain a drag on private investment."
+          ],
+          "tickers": [],
+          "sources": [
+            { "label": "Dhaka Tribune — Budget FY27 tax net", "url": "https://www.dhakatribune.com/business/411407/budget-fy27-nbr-to-add-more-businesses-into-tax" },
+            { "label": "The Daily Star — High taxes & rates stifle investment", "url": "https://www.thedailystar.net/business/bangladesh-budget-2026-27/news/high-taxes-and-interest-rates-stifle-investment-4183741" }
+          ]
+        },
+        {
+          "id": "2026-06-05-inflation",
+          "category": "MACRO",
+          "title": "Inflation seen dipping below 7% by mid-2026 on tight policy",
+          "bullets": [
+            "Interim government expects headline inflation to fall below 7% by June 2026, supported by contractionary monetary policy and fiscal restraint.",
+            "On a 12-month average basis, inflation fell below 9% in November 2025 — the first time since June 2023.",
+            "Disinflation supports the case for eventual rate easing — a medium-term positive for equities, especially rate-sensitive financials."
+          ],
+          "tickers": [],
+          "sources": [
+            { "label": "Financial Express — Inflation below 7% by mid-2026", "url": "https://thefinancialexpress.com.bd/economy/inflation-to-fall-below-7-per-cent-by-mid-2026-amid-tightening-policies-expects-govt" },
+            { "label": "Fibre2Fashion", "url": "https://www.fibre2fashion.com/news/economics/inflation-may-fall-below-7-by-jun-2026-bangladesh-s-interim-govt-307383-newsdetails.htm" }
+          ]
+        },
+        {
+          "id": "2026-06-05-reserves",
+          "category": "MACRO",
+          "title": "Forex reserves strengthen; IMF support expanded to $5.5bn",
+          "bullets": [
+            "Gross reserves rose to ~$35.1bn in April 2026 (from ~$34.1bn in March); reserves crossed $29bn on the IMF (BPM6) calculation.",
+            "Drivers: stable exchange rate, stronger remittance inflows and higher domestic interest rates curbing capital flight.",
+            "IMF has expanded combined program support to about $5.5bn — reinforcing external stability and reform momentum."
+          ],
+          "tickers": [],
+          "sources": [
+            { "label": "The Daily Star — Reserves cross $29bn (IMF method)", "url": "https://www.thedailystar.net/business/news/forex-reserves-cross-29-billion-month-imf-calculation-4102131" },
+            { "label": "The Daily Star — IMF expands support to $5.5b", "url": "https://www.thedailystar.net/business/news/reserves-edge-imf-expands-support-55b-3925006" }
+          ]
+        },
+        {
+          "id": "2026-06-05-banks",
+          "category": "MACRO",
+          "title": "Banking-sector stress: NPLs at record 30–36% under IMF reform watch",
+          "bullets": [
+            "Non-performing loans have climbed to an estimated 30–36% of disbursed credit — among the highest ratios globally — keeping the banking sector under intense scrutiny.",
+            "Bangladesh remains bound by IMF conditionalities (ECF/EFF/RSF, ~$5.4–5.5bn) requiring tax-revenue benchmarks, exchange-rate flexibility and banking reform.",
+            "Sector read-through: pressure on weak banks' valuations; selective strength in well-capitalised names."
+          ],
+          "tickers": [],
+          "sources": [
+            { "label": "Chambers — Banking Regulation 2026 Bangladesh", "url": "https://practiceguides.chambers.com/practice-guides/banking-regulation-2026/bangladesh" }
+          ]
+        },
+        {
+          "id": "2026-06-05-oil",
+          "category": "GLOBAL",
+          "title": "Oil shock: Strait of Hormuz disruption pushes Brent to ~$117 — import-cost risk for BD",
+          "bullets": [
+            "Brent averaged ~$117/bbl in April 2026 (highest monthly average since June 2022) after a de facto closure of the Strait of Hormuz, through which ~20% of global oil supply flowed.",
+            "Bangladesh is a net energy importer — sustained high crude raises the import bill, pressures the taka and risks reigniting inflation, complicating the disinflation path.",
+            "Negative for fuel-intensive sectors (power, cement, transport, manufacturing margins); watch subsidy/fuel-price policy responses."
+          ],
+          "tickers": [],
+          "sources": [
+            { "label": "EIA — Short-Term Energy Outlook (global oil)", "url": "https://www.eia.gov/outlooks/steo/report/global_oil.php" },
+            { "label": "IMF WEO April 2026 — Global economy in shadow of war", "url": "https://www.imf.org/en/publications/weo/issues/2026/04/14/world-economic-outlook-april-2026" }
+          ]
+        },
+        {
+          "id": "2026-06-05-emasia",
+          "category": "GLOBAL",
+          "title": "Fed flags energy risk; oil-importing Asia faces slower growth, stickier inflation",
+          "bullets": [
+            "The IMF expects the oil-driven growth slowdown and inflation pickup to hit emerging Asia hardest given reliance on Middle East crude.",
+            "Fed officials highlight energy prices and supply-chain disruption as key risks; central banks watching for wage-price spirals and de-anchored expectations — a 'higher-for-longer' global rate backdrop pressures EM flows.",
+            "For Bangladesh: tougher external financing conditions and a stronger-dollar bias are headwinds for the taka and foreign portfolio sentiment."
+          ],
+          "tickers": [],
+          "sources": [
+            { "label": "IMF WEO April 2026 (Ch.1 PDF)", "url": "https://www.imf.org/-/media/files/publications/weo/2026/april/english/ch1.pdf" },
+            { "label": "IMF — WEO Spring Meetings 2026 briefing", "url": "https://www.imf.org/en/news/articles/2026/04/14/tr-04142026-press-briefing-transcript-world-economic-outlook-spring-meetings-2026" }
+          ]
+        }
+      ]
+    }
+  ]
+}
