@@ -2,9 +2,352 @@
   "site": {
     "name": "FuturisticBD Market Watch",
     "tagline": "Daily Bangladesh capital-market intelligence · price-sensitive, policy, macro & global",
-    "updatedAt": "2026-06-09T23:48:52+06:00"
+    "updatedAt": "2026-06-13T22:57:22+06:00"
   },
   "editions": [
+    {
+      "date": "2026-06-13",
+      "displayDate": "Saturday, June 13, 2026",
+      "marketSnapshot": {
+        "asOf": "DSE close, Thursday, June 11, 2026 (last completed session; 2026-06-13 figures pending)",
+        "indices": [
+          {
+            "name": "DSEX",
+            "value": "5,520",
+            "change": "+4",
+            "dir": "up"
+          },
+          {
+            "name": "DS30",
+            "value": "2,081",
+            "change": "+1",
+            "dir": "up"
+          },
+          {
+            "name": "DSES (Shariah)",
+            "value": "1,115",
+            "change": "+1",
+            "dir": "up"
+          }
+        ],
+        "turnover": "Tk 1,238 crore (Tk 12.4bn, up 2.4% on the session)",
+        "breadth": "153 advanced · 187 declined · 56 unchanged"
+      },
+      "items": [
+        {
+          "id": "2026-06-13-budget-day-session",
+          "category": "PRICE-SENSITIVE",
+          "title": "DSEX edges up to 5,520 on budget day as investors hunt value",
+          "bullets": [
+            "In the final session of the week (Thu, 11 June) the DSEX rose 3.6 points to 5,520, recovering from a late-session dip on renewed buying in the final hour.",
+            "Turnover firmed 2.4% to ~Tk1,238 crore (Tk12.4bn); breadth stayed negative at 153 advancers vs 187 decliners, signalling selective rather than broad accumulation.",
+            "General Insurance led turnover (18.5%), then Engineering (11.4%) and Textile (10.3%); Miscellaneous (-4.1%) and Travel (-1.8%) lagged.",
+            "Impact: market is consolidating after a sharp multi-week rally; direction next week hinges on how investors digest the FY27 budget details."
+          ],
+          "tickers": [],
+          "sources": [
+            {
+              "label": "BSS — Stocks edge higher",
+              "url": "https://www.bssnews.net/business/394885"
+            },
+            {
+              "label": "TBS — Indices inch down as investors book profit",
+              "url": "https://www.tbsnews.net/economy/stocks/indices-inches-down-investors-book-profit-1459481"
+            }
+          ]
+        },
+        {
+          "id": "2026-06-13-bsec-floor-removal",
+          "category": "PRICE-SENSITIVE",
+          "title": "BSEC scraps floor price on Beximco, Islami Bank; both hit lower circuit",
+          "bullets": [
+            "Regulator lifted the minimum-price cap on Beximco and Islami Bank shares to restore free-market pricing, ending a long-standing distortion.",
+            "Both scrips slumped to the lower circuit on the first floor-free sessions as pent-up selling pressure overwhelmed bids.",
+            "Impact: removes an artificial price prop — expect continued volatility in the two heavyweights and a cleaner read on true valuations."
+          ],
+          "tickers": [
+            "BEXIMCO",
+            "ISLAMIBANK"
+          ],
+          "sources": [
+            {
+              "label": "TBS — BSEC removes floor price on Beximco and Islami Bank",
+              "url": "https://www.tbsnews.net/economy/stocks/bsec-removes-floor-price-beximco-and-islami-bank-shares-1457311"
+            },
+            {
+              "label": "TBS — Beximco, Islami Bank hit lower circuit",
+              "url": "https://www.tbsnews.net/economy/stocks/beximco-islami-bank-hit-lower-circuit-selling-pressure-overwhelms-market-1457771"
+            }
+          ]
+        },
+        {
+          "id": "2026-06-13-turnover-22-month-high",
+          "category": "PRICE-SENSITIVE",
+          "title": "Turnover hit a 22-month high on reform hopes around new BSEC team",
+          "bullets": [
+            "Daily turnover spiked to a 22-month high earlier in the rally as investor confidence rebuilt around expected governance reforms.",
+            "The surge accompanied a 10-session DSEX winning streak before pre-budget profit-taking cooled momentum on 8 June.",
+            "Impact: liquidity is returning to the bourse — sustained turnover above Tk1,200-1,400 crore would support further re-rating if reform follow-through is credible."
+          ],
+          "tickers": [],
+          "sources": [
+            {
+              "label": "TBS — Turnover hits 22-month high on new BSEC hopes",
+              "url": "https://www.tbsnews.net/economy/stocks/turnover-hits-22-month-high-new-bsec-hopes-1456676"
+            }
+          ]
+        },
+        {
+          "id": "2026-06-13-bsec-new-chair-direct-listing",
+          "category": "POLICY",
+          "title": "New BSEC chair vows 'aggressive' push for direct listing of large firms",
+          "bullets": [
+            "Appointment of a new BSEC chairman and commissioners drove a 70-point DSE surge on the announcement day as markets bet on stronger governance.",
+            "The new chief pledged an aggressive drive to bring big companies to market via direct listing to deepen the bourse.",
+            "Impact: a credible pipeline of quality listings plus tighter oversight could structurally widen the investable universe and lift institutional participation."
+          ],
+          "tickers": [],
+          "sources": [
+            {
+              "label": "TBS — BSEC chief vows aggressive push for direct listing",
+              "url": "https://www.tbsnews.net/economy/stocks/bsec-chief-vows-aggressive-push-direct-listing-big-firms-deepen-market-1456701"
+            },
+            {
+              "label": "TBS — DSE index welcomes new BSEC chair with 70-point surge",
+              "url": "https://www.tbsnews.net/economy/stocks/dse-index-welcomes-new-bsec-chair-70-point-surge-1456011"
+            }
+          ]
+        },
+        {
+          "id": "2026-06-13-fy27-budget-unveiled",
+          "category": "POLICY",
+          "title": "Finance minister unveils Tk9.38 lakh crore FY27 budget",
+          "bullets": [
+            "FM Amir Khosru presented a Tk9,38,000 crore budget for FY2026-27 on 11 June — the largest ever — built around recovery, jobs and reform.",
+            "Revenue target ~Tk6,95,000 crore (NBR tasked with ~Tk6,04,000 crore); fiscal deficit projected at 3.55% of GDP.",
+            "Impact: scale of spending is expansionary but execution and revenue mobilisation remain the key risks flagged by analysts."
+          ],
+          "tickers": [],
+          "sources": [
+            {
+              "label": "TBS — FM unveils Tk9.38 lakh cr budget for FY27",
+              "url": "https://www.tbsnews.net/economy/budget/finance-minister-starts-unveiling-fy26-27-budget-1460021"
+            },
+            {
+              "label": "The Daily Star — Largest budget in the works",
+              "url": "https://www.thedailystar.net/business/bangladesh-budget-2026-27/news/largest-budget-the-works-4194986"
+            },
+            {
+              "label": "TBS — At a glance: FY2026-27 budget",
+              "url": "https://www.tbsnews.net/economy/glance-fy2026-27-budget-1459296"
+            }
+          ]
+        },
+        {
+          "id": "2026-06-13-budget-measures",
+          "category": "POLICY",
+          "title": "Budget fine print: EV duty cuts, source-tax relief, black-money window for housing",
+          "bullets": [
+            "Duties to be cut on electric and hybrid vehicles while taxes rise on petrol cars, nudging a green-mobility shift.",
+            "19 sectors may see lower AIT/source tax; FICCI and KCCI welcomed the Finance Bill 2026 as business-friendly.",
+            "An indemnity window would let undisclosed money flow into real estate if buyers declare true prices.",
+            "Impact: targeted relief is positive for autos, real estate and export-linked sectors; the black-money clause is politically sensitive but typically lifts property-linked stocks."
+          ],
+          "tickers": [],
+          "sources": [
+            {
+              "label": "TBS — Incentives for EVs, higher taxes on fossil-fuel cars",
+              "url": "https://www.tbsnews.net/bangladesh/budget-fy27-govt-cut-duties-electric-and-hybrid-vehicles-raise-taxes-petrol-cars-1459336"
+            },
+            {
+              "label": "TBS — 19 sectors may see cuts in AIT, source tax",
+              "url": "https://www.tbsnews.net/nbr/19-sectors-may-see-cuts-ait-source-tax-1456836"
+            },
+            {
+              "label": "TBS — Black money allowed in real estate if true prices declared",
+              "url": "https://www.tbsnews.net/economy/budget-set-offer-indemnity-black-money-housing-sector-1459391"
+            }
+          ]
+        },
+        {
+          "id": "2026-06-13-stimulus-distressed-industries",
+          "category": "POLICY",
+          "title": "Tk20,000 crore stimulus for distressed industries stirs speculative bets",
+          "bullets": [
+            "Government floated a Tk20,000 crore package to revive closed and financially distressed industrial enterprises.",
+            "Speculative interest has surged in shares of non-operational or fundamentally weak listed firms on hopes of revival.",
+            "Analysts warn there is no clarity yet on eligibility, conditions, distribution or timing of disbursement.",
+            "Impact: caution warranted — recent price spikes in weak counters are expectation-driven and may not be sustainable."
+          ],
+          "tickers": [],
+          "sources": [
+            {
+              "label": "TBS — Indices inch down (stimulus details)",
+              "url": "https://www.tbsnews.net/economy/stocks/indices-inches-down-investors-book-profit-1459481"
+            }
+          ]
+        },
+        {
+          "id": "2026-06-13-standard-islami-share-gift",
+          "category": "COMPANY",
+          "title": "Standard Islami Bank director to receive 50.58 lakh shares as family gift",
+          "bullets": [
+            "A Standard Islami Bank director is set to receive 50.58 lakh shares transferred as a family gift (off-market transmission).",
+            "Such intra-family transfers reshuffle sponsor holdings without affecting free float or triggering open-market supply.",
+            "Impact: neutral for price but worth tracking for sponsor-shareholding disclosures."
+          ],
+          "tickers": [],
+          "sources": [
+            {
+              "label": "TBS — Standard Islami Bank director to receive 50.58 lakh shares",
+              "url": "https://www.tbsnews.net/economy/stocks/standard-islami-bank-director-receive-5058-lakh-shares-family-gift-1456686"
+            }
+          ]
+        },
+        {
+          "id": "2026-06-13-banglalink-teletalk-nagad",
+          "category": "COMPANY",
+          "title": "Banglalink eyes Teletalk merger; parent Veon keen on Nagad",
+          "bullets": [
+            "Banglalink signalled intent to merge with state operator Teletalk and form a partnership with BTCL.",
+            "Veon, Banglalink's parent, has expressed interest in investing in mobile-money operator Nagad.",
+            "Impact: potential consolidation could reshape the telecom and fintech landscape; watch for regulatory and valuation signals affecting listed telecom peers."
+          ],
+          "tickers": [],
+          "sources": [
+            {
+              "label": "TBS — Banglalink intends to merge with Teletalk",
+              "url": "https://www.tbsnews.net/bangladesh/telecom/banglalink-intends-merge-teletalk-form-partnership-btcl-1458726"
+            },
+            {
+              "label": "TBS — Veon expresses interest to invest in Nagad",
+              "url": "https://www.tbsnews.net/economy/veon-expresses-interest-invest-nagad-1458676"
+            }
+          ]
+        },
+        {
+          "id": "2026-06-13-stanchart-ceo-exit",
+          "category": "COMPANY",
+          "title": "Naser Ezaz Bijoy steps down as Standard Chartered Bangladesh CEO",
+          "bullets": [
+            "Long-serving CEO Naser Ezaz Bijoy has resigned from Standard Chartered Bangladesh.",
+            "Leadership change at a top foreign bank comes amid a sector under heightened scrutiny over hidden losses.",
+            "Impact: limited direct market effect (StanChart is unlisted) but signals continued churn in banking-sector leadership."
+          ],
+          "tickers": [],
+          "sources": [
+            {
+              "label": "TBS — Naser Ezaz steps down from StanChart Bangladesh CEO role",
+              "url": "https://www.tbsnews.net/economy/banking/naser-ezaz-bijoy-resigns-ceo-standard-chartered-bangladesh-1457256"
+            }
+          ]
+        },
+        {
+          "id": "2026-06-13-islami-bank-reserve-pressure",
+          "category": "COMPANY",
+          "title": "Islami Bank under reserve pressure after Tk4,240cr withdrawals; BB sends observer",
+          "bullets": [
+            "Islami Bank faces liquidity strain following ~Tk4,240 crore in withdrawals after a contested chairman appointment.",
+            "Bangladesh Bank appointed Ashraful Alam as an observer; depositors' forum staged sit-ins demanding the chairman's removal.",
+            "Impact: governance turmoil at the country's largest private bank is a near-term overhang on ISLAMIBANK shares and banking-sector sentiment."
+          ],
+          "tickers": [
+            "ISLAMIBANK"
+          ],
+          "sources": [
+            {
+              "label": "TBS — Islami Bank under reserve pressure amid withdrawals",
+              "url": "https://www.tbsnews.net/economy/banking/islami-bank-faces-reserve-pressure-amid-tk4240cr-withdrawals-after-khurshid-alam"
+            },
+            {
+              "label": "TBS — BB appoints Ashraful Alam observer to Islami Bank",
+              "url": "https://www.tbsnews.net/economy/banking/bb-appoints-ashraful-alam-observer-islami-bank-1459316"
+            }
+          ]
+        },
+        {
+          "id": "2026-06-13-gdp-half-trillion",
+          "category": "MACRO",
+          "title": "Bangladesh economy crosses the half-trillion-dollar mark",
+          "bullets": [
+            "Bangladesh entered the $500 billion GDP club for the first time, a milestone for the South Asian economy.",
+            "The achievement underpins the budget's recovery narrative and longer-term consumption-growth story.",
+            "Impact: supportive backdrop for domestic-demand sectors (consumer, pharma, telecom) over the medium term."
+          ],
+          "tickers": [],
+          "sources": [
+            {
+              "label": "TBS — Bangladesh enters $500b GDP club for first time",
+              "url": "https://www.tbsnews.net/economy/bangladesh-economy-crosses-half-trillion-dollar-mark-1459061"
+            }
+          ]
+        },
+        {
+          "id": "2026-06-13-forex-reserves",
+          "category": "MACRO",
+          "title": "Forex reserves rebuild to highest since late 2022",
+          "bullets": [
+            "Bangladesh Bank's gross reserves climbed to about $34.06 billion, the highest since November 2022, aided by stronger remittances.",
+            "Gross reserves crossed $29 billion on the IMF (BPM6) calculation; BB bought ~$4.3 billion from the interbank market this fiscal year.",
+            "Impact: a healthier external buffer eases taka pressure and import financing, a positive for macro stability and importer-heavy sectors."
+          ],
+          "tickers": [],
+          "sources": [
+            {
+              "label": "The Daily Star — Forex reserves cross $29b on IMF method",
+              "url": "https://www.thedailystar.net/business/news/forex-reserves-cross-29-billion-month-imf-calculation-4102131"
+            }
+          ]
+        },
+        {
+          "id": "2026-06-13-oil-hormuz-iran",
+          "category": "GLOBAL",
+          "title": "Oil tumbles toward $89 as Trump pauses Iran strikes, Hormuz reopening eyed",
+          "bullets": [
+            "Brent fell over 4% toward $89 (lowest since March) after President Trump suspended planned strikes on Iran and signalled a possible deal.",
+            "A draft 14-point agreement envisages lifting oil sanctions and reopening the Strait of Hormuz within 30 days; prices remain ~30% above pre-conflict levels.",
+            "World Bank lowered its global growth forecast citing the Iran war's impact.",
+            "Impact: lower crude eases Bangladesh's import bill, fuel-subsidy and inflation pressure — net positive for the taka, power/energy costs and overall equity sentiment if sustained."
+          ],
+          "tickers": [],
+          "sources": [
+            {
+              "label": "CNBC — Oil falls as Hormuz ship traffic increases",
+              "url": "https://www.cnbc.com/2026/06/09/oil-prices-iran-war-strait-hormuz-trump-israel-lebanon.html"
+            },
+            {
+              "label": "BSS — World Bank lowers global growth forecast on Iran war",
+              "url": "https://www.bssnews.net/business/394953"
+            },
+            {
+              "label": "TBS — Israel and Iran strike each other since ceasefire",
+              "url": "https://www.tbsnews.net/worldbiz/middle-east/israel-and-iran-strike-each-other-first-time-ceasefire-1457151"
+            }
+          ]
+        },
+        {
+          "id": "2026-06-13-fed-hold",
+          "category": "GLOBAL",
+          "title": "US Fed seen holding rates as cut bets slip into 2027",
+          "bullets": [
+            "Markets price near-certainty that the Fed holds at its June 2026 meeting, with inflation still above target and spending resilient.",
+            "Economists have pushed rate-cut expectations further out, with some surveys eyeing 2027.",
+            "Impact: a higher-for-longer US rate path keeps the dollar firm and pressures emerging-market flows and the taka — a headwind for frontier equities like the DSE."
+          ],
+          "tickers": [],
+          "sources": [
+            {
+              "label": "Yahoo Finance — Economists push Fed rate-cut expectations into 2027",
+              "url": "https://finance.yahoo.com/economy/policy/articles/economists-push-fed-rate-cut-100000101.html"
+            },
+            {
+              "label": "Goldman Sachs — Why the Fed is unlikely to cut rates this year",
+              "url": "https://www.goldmansachs.com/insights/articles/why-the-fed-is-unlikely-to-cut-rates-this-year"
+            }
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-06-09",
       "displayDate": "Tuesday, June 9, 2026",
