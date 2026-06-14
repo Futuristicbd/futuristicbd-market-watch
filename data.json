@@ -2,9 +2,300 @@
   "site": {
     "name": "FuturisticBD Market Watch",
     "tagline": "Daily Bangladesh capital-market intelligence · price-sensitive, policy, macro & global",
-    "updatedAt": "2026-06-13T22:57:22+06:00"
+    "updatedAt": "2026-06-14T23:48:40+06:00"
   },
   "editions": [
+    {
+      "date": "2026-06-14",
+      "displayDate": "Sunday, June 14, 2026",
+      "marketSnapshot": {
+        "asOf": "DSE close, Sunday, June 14, 2026",
+        "indices": [
+          {
+            "name": "DSEX",
+            "value": "5,625",
+            "change": "+100.5",
+            "dir": "up"
+          },
+          {
+            "name": "DS30",
+            "value": "~2,110",
+            "change": "+~37 (est.)",
+            "dir": "up"
+          },
+          {
+            "name": "DSES (Shariah)",
+            "value": "~1,086",
+            "change": "+~19 (est.)",
+            "dir": "up"
+          }
+        ],
+        "turnover": "Tk 1,360 crore (up 9.7% from Tk 1,240 crore)",
+        "breadth": "243 advanced · 95 declined · 58 unchanged"
+      },
+      "items": [
+        {
+          "id": "2026-06-14-dsex-past-5600",
+          "category": "PRICE-SENSITIVE",
+          "title": "DSEX surges past 5,600 for first time in 9.5 months on post-budget optimism",
+          "bullets": [
+            "Benchmark DSEX jumped 100.5 points (+1.8%) to close at 5,625, up from 5,520 — its first close above 5,600 since roughly mid-2025.",
+            "Turnover rose 9.7% to Tk 1,360 crore (Tk 13.6 billion) from Tk 1,240 crore, signalling broad participation.",
+            "Breadth strongly positive: of 396 issues, 243 advanced, 95 declined, 58 unchanged.",
+            "Driven by optimism over FY2026-27 budget incentives for the capital market; momentum likely to persist if BSEC reform delivers."
+          ],
+          "tickers": [],
+          "sources": [
+            {
+              "label": "BSS",
+              "url": "https://www.bssnews.net/business/395854"
+            }
+          ]
+        },
+        {
+          "id": "2026-06-14-sector-leaders",
+          "category": "PRICE-SENSITIVE",
+          "title": "Financial institutions and banks lead the charge; miscellaneous lone loser",
+          "bullets": [
+            "Financial Institutions gained 4.4%, Banking 3.3% and IT 3.2% — the heaviest-weighted sectors powering the index higher.",
+            "General Insurance dominated turnover at 15.4% of traded value, followed by Pharmaceuticals and Banking at 11.9% each.",
+            "Miscellaneous was the only major decliner, down 3.5%.",
+            "Leadership by banks/NBFIs points to valuation re-rating of rate-sensitive financials on budget and reform hopes."
+          ],
+          "tickers": [],
+          "sources": [
+            {
+              "label": "BSS",
+              "url": "https://www.bssnews.net/business/395854"
+            }
+          ]
+        },
+        {
+          "id": "2026-06-14-cse-gains",
+          "category": "PRICE-SENSITIVE",
+          "title": "Chattogram bourse mirrors Dhaka's rally",
+          "bullets": [
+            "CSE Selective Categories Index (CSCX) rose 91.1 points; the All Share Price Index (CASPI) gained 147.6 points.",
+            "Confirms a market-wide, not Dhaka-only, response to the budget — supportive for sustained sentiment."
+          ],
+          "tickers": [],
+          "sources": [
+            {
+              "label": "BSS",
+              "url": "https://www.bssnews.net/business/395854"
+            }
+          ]
+        },
+        {
+          "id": "2026-06-14-fourth-week-rally",
+          "category": "PRICE-SENSITIVE",
+          "title": "Market enters the new week off a fourth straight weekly gain",
+          "bullets": [
+            "Week ending June 11 closed DSEX at 5,520 (+45 on the week), DS30 at 2,073 and DSES at 1,067 — a fourth consecutive weekly advance.",
+            "Drivers: optimism over new BSEC leadership and expectations of market-friendly FY27 budget measures.",
+            "Today's breakout above 5,600 extends that trend into a fifth week."
+          ],
+          "tickers": [],
+          "sources": [
+            {
+              "label": "TBS",
+              "url": "https://www.tbsnews.net/economy/stocks/stocks-extend-rally-fourth-week-reform-budget-hopes-1462251"
+            }
+          ]
+        },
+        {
+          "id": "2026-06-14-budget-tax-differential",
+          "category": "POLICY",
+          "title": "FY2026-27 budget widens listed-vs-unlisted tax gap, cuts merchant-bank tax",
+          "bullets": [
+            "Corporate tax differential between listed and unlisted firms raised from 5% to 7.5%, a clear incentive to list.",
+            "Merchant banks get a reduced 27.5% rate (from 37.5%) to boost market-making and supply of quality shares.",
+            "Listed-company rate held at 22.5% (20% if all income routed via banking channels); unlisted at 27.5% (25% via banking channels).",
+            "BSEC chairman called the budget positive for the capital market."
+          ],
+          "tickers": [],
+          "sources": [
+            {
+              "label": "The Daily Star",
+              "url": "https://www.thedailystar.net/business/bangladesh-budget-2026-27/news/tax-breaks-aim-revive-investment-4196766"
+            },
+            {
+              "label": "TBS",
+              "url": "https://www.tbsnews.net/features/panorama/budgets-attention-capital-market-commendable-1460576"
+            }
+          ]
+        },
+        {
+          "id": "2026-06-14-cabinet-approves-budget",
+          "category": "POLICY",
+          "title": "Cabinet approves proposed FY2026-27 budget",
+          "bullets": [
+            "The proposed national budget for FY2026-27 was approved at a cabinet meeting chaired by PM Tarique Rahman.",
+            "Historic inclusion of explicit capital-market strategies signals official recognition of the sector's economic role.",
+            "Sets the policy backdrop for the equity rally seen this session."
+          ],
+          "tickers": [],
+          "sources": [
+            {
+              "label": "The Daily Star",
+              "url": "https://www.thedailystar.net/business/bangladesh-budget-2026-27/news/cabinet-approves-proposed-budget-fy2026-27-4196136"
+            }
+          ]
+        },
+        {
+          "id": "2026-06-14-bsec-restructure",
+          "category": "POLICY",
+          "title": "BSEC to be fully restructured within two weeks, says minister",
+          "bullets": [
+            "Finance and Planning Minister said a new BSEC chairman and four commissioners will be appointed through a strictly professional, non-political process.",
+            "A credibly independent regulator is the key swing factor for attracting institutional and foreign inflows.",
+            "Reform agenda already includes Margin Rules 2025 and updated IPO, Mutual Fund and Public Issue rules."
+          ],
+          "tickers": [],
+          "sources": [
+            {
+              "label": "TBS",
+              "url": "https://www.tbsnews.net/economy/stocks/dse-reclaims-5400-mark-reform-hopes-govt-pledges-non-political-bsec-1452806"
+            },
+            {
+              "label": "BSS",
+              "url": "https://www.bssnews.net/business/392531"
+            }
+          ]
+        },
+        {
+          "id": "2026-06-14-cse-welcomes-budget",
+          "category": "POLICY",
+          "title": "CSE welcomes FY27 budget, seeks deeper tax incentives",
+          "bullets": [
+            "Chattogram Stock Exchange welcomed the budget's capital-market focus but pressed for further tax incentives to strengthen the market.",
+            "Suggests exchanges expect more supportive measures during budget passage."
+          ],
+          "tickers": [],
+          "sources": [
+            {
+              "label": "BSS",
+              "url": "https://www.bssnews.net/business/395821"
+            }
+          ]
+        },
+        {
+          "id": "2026-06-14-dividend-disclosures",
+          "category": "COMPANY",
+          "title": "AGM and dividend season in full swing for Dec-2025 year-end firms",
+          "bullets": [
+            "Numerous listed firms are disclosing FY2025 (year ended Dec 31, 2025) results with AGMs scheduled through June 2026.",
+            "Examples reported include 25% cash + 3% stock dividends, and EPS such as Tk 22.60 (NAV Tk 210.31) and Tk 2.02 (NAV Tk 33.85).",
+            "Record dates and AGM outcomes are near-term price catalysts for individual names."
+          ],
+          "tickers": [],
+          "sources": [
+            {
+              "label": "AmarStock DSE News",
+              "url": "https://www.amarstock.com/dse-last-7-days-news"
+            }
+          ]
+        },
+        {
+          "id": "2026-06-14-dse-query-dulamia",
+          "category": "COMPANY",
+          "title": "Regulatory scrutiny: DSE query over dividend-rule compliance",
+          "bullets": [
+            "DSE has sought explanations from listed firms over dividend-rule breaches (e.g., Dulamia Cotton), part of tighter compliance enforcement.",
+            "Heightened surveillance aids governance but can pressure non-compliant small caps."
+          ],
+          "tickers": [
+            "DULAMIACOT"
+          ],
+          "sources": [
+            {
+              "label": "TBS",
+              "url": "https://www.tbsnews.net/economy/stocks/dse-seeks-explanation-dulamia-cotton-dividend-rule-breach-1363496"
+            }
+          ]
+        },
+        {
+          "id": "2026-06-14-forex-reserves",
+          "category": "MACRO",
+          "title": "Forex reserves climb to about $35.6 billion",
+          "bullets": [
+            "Gross reserves stand near $35.63 billion, continuing a multi-month rebuild aided by strong remittances and moderated imports.",
+            "Government targets $51.7 billion in reserves by end-FY27.",
+            "Stronger reserves underpin taka stability and reduce external-financing risk — supportive for equities and importers."
+          ],
+          "tickers": [],
+          "sources": [
+            {
+              "label": "BSS",
+              "url": "https://www.bssnews.net/business/395907"
+            },
+            {
+              "label": "Dhaka Tribune",
+              "url": "https://www.dhakatribune.com/business/411412/bangladesh-targets-51.7bn-forex-reserve-by-end-of"
+            }
+          ]
+        },
+        {
+          "id": "2026-06-14-monetary-policy-rates",
+          "category": "MACRO",
+          "title": "Bangladesh Bank holds policy rate at 10% amid sticky inflation",
+          "bullets": [
+            "BB maintains a tight stance; rate cuts unlikely until inflation stays below 8% for several consecutive months.",
+            "Crawling-peg band modestly widened to improve forex-market efficiency and channel remittances formally.",
+            "Import cover near 3.5 months remains below the IMF's 6-month comfort threshold — a lingering vulnerability."
+          ],
+          "tickers": [],
+          "sources": [
+            {
+              "label": "Procapitas",
+              "url": "https://www.procapitas.com/news/economy/bangladesh-holds-rates-at-10-amid-inflation-tariff-worries"
+            },
+            {
+              "label": "Royal Capital (MPS)",
+              "url": "https://adda.royalcapitalbd.com/the-monetary-policy-statement-mps-for-january-june-fy2026/"
+            }
+          ]
+        },
+        {
+          "id": "2026-06-14-oil-middle-east",
+          "category": "GLOBAL",
+          "title": "Middle East tensions keep oil elevated, clouding global rate-cut path",
+          "bullets": [
+            "Renewed Iran-US conflict has pushed crude sharply higher in 2026, with episodic 7% single-day surges.",
+            "Higher energy prices raise Bangladesh's import bill and inflation risk, pressuring the taka and reserves.",
+            "Hormuz supply fears are a key external risk for fuel, fertiliser and freight costs."
+          ],
+          "tickers": [],
+          "sources": [
+            {
+              "label": "Al Habtoor Research",
+              "url": "https://www.habtoorresearch.com/programmes/hormuz-oil-iran-strikes/"
+            },
+            {
+              "label": "FXStreet",
+              "url": "https://www.fxstreet.com/analysis/oil-prices-rise-amid-middle-east-tensions-and-supply-fears-202506121037"
+            }
+          ]
+        },
+        {
+          "id": "2026-06-14-fed-rate-outlook",
+          "category": "GLOBAL",
+          "title": "Fed rate-cut odds fade as energy-driven inflation bites",
+          "bullets": [
+            "Market-implied odds of a June 2026 Fed cut have collapsed (around 3-4%), with 'hold' the base case.",
+            "A higher-for-longer US rate path strengthens the dollar and pressures emerging-market currencies including the taka.",
+            "Tighter global liquidity can dampen foreign portfolio inflows into frontier markets like Bangladesh."
+          ],
+          "tickers": [],
+          "sources": [
+            {
+              "label": "Crypto Briefing",
+              "url": "https://cryptobriefing.com/middle-east-tensions-oil-prices-complicate-fed-rate-cut-outlook-for-2026/"
+            }
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-06-13",
       "displayDate": "Saturday, June 13, 2026",
