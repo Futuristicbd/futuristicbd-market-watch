@@ -2,9 +2,309 @@
   "site": {
     "name": "FuturisticBD Market Watch",
     "tagline": "Daily Bangladesh capital-market intelligence · price-sensitive, policy, macro & global",
-    "updatedAt": "2026-06-14T23:48:40+06:00"
+    "updatedAt": "2026-06-16T20:59:21+06:00"
   },
   "editions": [
+    {
+      "date": "2026-06-16",
+      "displayDate": "Tuesday, June 16, 2026",
+      "marketSnapshot": {
+        "asOf": "DSE close, Monday, June 15, 2026 (latest completed session; June 16, 2026 figures not yet published at briefing time)",
+        "indices": [
+          {
+            "name": "DSEX",
+            "value": "5,640",
+            "change": "+15",
+            "dir": "up"
+          },
+          {
+            "name": "DS30",
+            "value": "2,128",
+            "change": "+8",
+            "dir": "up"
+          },
+          {
+            "name": "DSES (Shariah)",
+            "value": "~1,090",
+            "change": "+~4 (est.)",
+            "dir": "up"
+          }
+        ],
+        "turnover": "Tk 1,456 crore (up 7% from Tk 1,360 crore)",
+        "breadth": "145 advanced · 184 declined · 66 unchanged"
+      },
+      "items": [
+        {
+          "id": "2026-06-16-dsex-95-month-high",
+          "category": "PRICE-SENSITIVE",
+          "title": "DSEX hits 9.5-month high on Islami Bank-led rally; index holds above 5,600",
+          "bullets": [
+            "Benchmark DSEX rose 15 points (0.27%) to 5,640 in the June 15 session, its highest close since late last year and a third straight gaining session; DS30 added 8 points to 2,128.",
+            "Turnover climbed 7% to Tk1,456 crore on stronger liquidity, but breadth stayed negative (145 advancers vs 184 decliners, 66 unchanged) as investors booked profits after the multi-month peak.",
+            "Islami Bank Bangladesh surged 10% to the upper circuit on expectations of regulatory liquidity support, topping the gainers list; ceramics (+1.9%), banking (+1.2%) and cement (+0.9%) led sectors.",
+            "Beximco Ltd was the top loser (-9.95%); general insurance dominated turnover (15.9%), then banking (13.3%) and textiles (10.1%). CSE indices also rose (CASPI +52 to 15,395)."
+          ],
+          "tickers": [
+            "ISLAMIBANK",
+            "DSEX",
+            "DS30",
+            "BEXIMCO",
+            "IPDC"
+          ],
+          "sources": [
+            {
+              "label": "The Business Standard",
+              "url": "https://www.tbsnews.net/economy/stocks/dsex-hits-95-month-high-islami-bank-led-rally-1464151"
+            }
+          ]
+        },
+        {
+          "id": "2026-06-16-sonargaon-textiles-halt",
+          "category": "PRICE-SENSITIVE",
+          "title": "DSE halts Sonargaon Textiles trading amid unusual price surge",
+          "bullets": [
+            "The Dhaka Stock Exchange suspended trading of Sonargaon Textiles after an abnormal, unexplained run-up in its share price and volume.",
+            "The stock had been among the session's top gainers; the halt is a routine surveillance step pending a company query response on price-sensitive information.",
+            "Such interventions typically cool speculative momentum in the affected counter and signal tighter regulatory scrutiny of low-cap textile names."
+          ],
+          "tickers": [
+            "SONARGAON"
+          ],
+          "sources": [
+            {
+              "label": "The Business Standard",
+              "url": "https://www.tbsnews.net/economy/stocks/dse-halts-sonargaon-textiles-trading-amid-unusual-price-surge-1464161"
+            }
+          ]
+        },
+        {
+          "id": "2026-06-16-islami-bank-liquidity-2500cr",
+          "category": "COMPANY",
+          "title": "Islami Bank receives another Tk2,500cr liquidity support from central bank",
+          "bullets": [
+            "Bangladesh Bank extended a further Tk2,500 crore in liquidity support to Islami Bank, reinforcing confidence in the lender after its board was dissolved.",
+            "The fresh support underpinned the stock's 10% upper-circuit rally and helped lift the broader banking sector and the DSEX.",
+            "Continued state backing reduces near-term solvency concerns but keeps focus on the bank's asset quality and governance reset."
+          ],
+          "tickers": [
+            "ISLAMIBANK"
+          ],
+          "sources": [
+            {
+              "label": "The Business Standard",
+              "url": "https://www.tbsnews.net/economy/banking/islami-bank-receives-another-tk2500cr-liquidity-support-cenbank-1463566"
+            }
+          ]
+        },
+        {
+          "id": "2026-06-16-islami-bank-board-dissolution",
+          "category": "POLICY",
+          "title": "Bangladesh Bank dissolves Islami Bank board; neutral administrator appointed",
+          "bullets": [
+            "The central bank dissolved Islami Bank's board and installed an administrator promising a neutral, non-political new panel and uninterrupted customer services.",
+            "The Association of Bankers, Bangladesh (ABB) welcomed the decision but warned against 'mob' interference in banking governance.",
+            "The move is a major governance intervention in the country's largest private bank, with implications for confidence across the Shariah-banking segment."
+          ],
+          "tickers": [
+            "ISLAMIBANK"
+          ],
+          "sources": [
+            {
+              "label": "TBS – ABB on Islami Bank board move",
+              "url": "https://www.tbsnews.net/economy/banking/abb-welcomes-bangladesh-bank-move-islami-bank-board-dissolution-1463666"
+            },
+            {
+              "label": "TBS – customers welcome dissolution",
+              "url": "https://www.tbsnews.net/economy/banking/islami-bank-customers-welcome-board-dissolution-seek-non-political-new-panel-1463516"
+            }
+          ]
+        },
+        {
+          "id": "2026-06-16-brac-bank-dividend-earnings",
+          "category": "COMPANY",
+          "title": "BRAC Bank declares 15% cash + 15% stock dividend on Tk9.12 EPS for 2025",
+          "bullets": [
+            "BRAC Bank recommended a 15% cash and 15% stock dividend for the year ended December 31, 2025, with the AGM held June 11 and record date May 17.",
+            "Consolidated EPS came in at Tk9.12, consolidated NAV per share at Tk51.56 and NOCFPS at Tk72.72 — a strong cash-flow profile.",
+            "The healthy payout and earnings support sentiment toward large-cap private banks driving the current DSEX rally."
+          ],
+          "tickers": [
+            "BRACBANK"
+          ],
+          "sources": [
+            {
+              "label": "StockNow – BRAC Bank",
+              "url": "https://stocknow.com.bd/stocks/BRACBANK/brac-bank-ltd"
+            }
+          ]
+        },
+        {
+          "id": "2026-06-16-mutual-trust-bank-agm-dividend",
+          "category": "COMPANY",
+          "title": "Mutual Trust Bank re-fixes AGM, record date after BSEC nod for stock dividend",
+          "bullets": [
+            "Mutual Trust Bank reset its AGM and record date after the BSEC consented to its 12% stock dividend for the year ended December 31, 2025.",
+            "Regulatory approval of stock dividends has become a recurring theme this AGM season as banks conserve cash amid tight liquidity.",
+            "Record-date resets matter for entitlement; investors buying before the new record date qualify for the dividend."
+          ],
+          "tickers": [
+            "MTB"
+          ],
+          "sources": [
+            {
+              "label": "The Business Standard",
+              "url": "https://www.tbsnews.net/economy/stocks/mutual-trust-bank-re-fixes-agm-record-date-after-bsec-nod-stock-dividend-1451926"
+            }
+          ]
+        },
+        {
+          "id": "2026-06-16-lrbdl-egm-ipo-proceeds",
+          "category": "COMPANY",
+          "title": "LRBDL seeks to redeploy idle IPO funds; EGM set for July 9, record date June 30",
+          "bullets": [
+            "LR Bangladesh (LRBDL) will ask shareholders to approve using ~Tk20 crore of idle IPO proceeds to settle outstanding LC liabilities and loan-rescheduling down payments.",
+            "The board (187th meeting, June 9) flagged eroded working capital since COVID-19, the Russia-Ukraine war and 2024 political unrest; EGM is July 9, record date June 30.",
+            "Redeploying idle IPO money signals balance-sheet stress but could ease the company's near-term liabilities if approved."
+          ],
+          "tickers": [
+            "LRBDL"
+          ],
+          "sources": [
+            {
+              "label": "AmarStock – DSE disclosures",
+              "url": "https://www.amarstock.com/dse-news"
+            }
+          ]
+        },
+        {
+          "id": "2026-06-16-bb-policy-rate-10pct",
+          "category": "POLICY",
+          "title": "Bangladesh Bank holds policy rate at 10% in inflation-vs-growth trade-off",
+          "bullets": [
+            "The central bank kept its policy (repo) rate at 10%, maintaining the tight stance held since October 2024 to defend the taka and rebuild reserves.",
+            "Inflation has proven sticky, rising for a third straight month to 8.58% earlier in the year and staying above target.",
+            "High real rates support exchange-rate stability but weigh on credit growth and equity valuations outside defensive large-caps."
+          ],
+          "tickers": [],
+          "sources": [
+            {
+              "label": "The Daily Star",
+              "url": "https://www.thedailystar.net/business/economy/news/bb-holds-policy-rate-10-tough-trade-inflation-vs-growth-4102396"
+            }
+          ]
+        },
+        {
+          "id": "2026-06-16-forex-reserves-29b",
+          "category": "MACRO",
+          "title": "Forex reserves cross $29 billion under IMF (BPM6) method",
+          "bullets": [
+            "Bangladesh's gross reserves rose above $29 billion (about $29.47b) on the IMF's calculation method for the first time, up from $29.23b in early February.",
+            "Replenishment has been driven by strong remittance inflows and moderated import demand over the past year.",
+            "A thicker reserve buffer reduces taka-depreciation and import-cover risk — a supportive macro backdrop for equities and importers."
+          ],
+          "tickers": [],
+          "sources": [
+            {
+              "label": "The Daily Star",
+              "url": "https://www.thedailystar.net/business/economy/news/reserves-cross-29b-under-imf-method-4102381"
+            }
+          ]
+        },
+        {
+          "id": "2026-06-16-cash-672pct-transactions",
+          "category": "MACRO",
+          "title": "Cash still accounts for 67.2% of transactions despite cashless push",
+          "bullets": [
+            "Cash remains dominant at 67.2% of transactions in Bangladesh even as MFS and digital payments expand, underscoring slow cashless adoption.",
+            "The report notes the taka has lost ~94% of its value versus the US dollar over 50 years, with the kerb rate near Tk124/$1.",
+            "Persistent cash reliance limits the addressable market for fintech and digital-banking listings over the medium term."
+          ],
+          "tickers": [],
+          "sources": [
+            {
+              "label": "The Business Standard",
+              "url": "https://www.tbsnews.net/economy/cash-still-accounts-672-transactions-bangladesh-despite-cashless-push-1464221"
+            }
+          ]
+        },
+        {
+          "id": "2026-06-16-nbr-customs-valuation",
+          "category": "POLICY",
+          "title": "NBR ends customs' arbitrary import valuation to ease doing business",
+          "bullets": [
+            "The National Board of Revenue moved to scrap customs officers' discretionary (arbitrary) valuation of imported goods, aiming to cut clearance friction and disputes.",
+            "Separately, NBR is widening its surcharge net by requiring inherited assets to be valued in tax files.",
+            "Smoother, rules-based valuation lowers import costs and uncertainty for trading, manufacturing and pharma importers."
+          ],
+          "tickers": [],
+          "sources": [
+            {
+              "label": "TBS – customs valuation reform",
+              "url": "https://www.tbsnews.net/nbr/customs-arbitrary-valuation-import-goods-ends-make-business-easier-1464216"
+            },
+            {
+              "label": "TBS – NBR surcharge net",
+              "url": "https://www.tbsnews.net/nbr/inherited-assets-must-be-valued-tax-files-nbr-seeks-widen-surcharge-net-1463326"
+            }
+          ]
+        },
+        {
+          "id": "2026-06-16-budget-fy27-industrial-policy",
+          "category": "MACRO",
+          "title": "Budget FY27: 'trillion-dollar dream' needs a smarter industrial policy",
+          "bullets": [
+            "Commentary on the FY27 budget argues Bangladesh's long-run growth ambitions hinge on a sharper, more selective industrial policy rather than broad subsidies.",
+            "Post-budget optimism has been a key driver of the recent equity rally that pushed the DSEX past 5,600 for the first time in 9.5 months.",
+            "Sector implications: targeted incentives would favour export-oriented RMG, pharma and power names over protected, low-productivity industries."
+          ],
+          "tickers": [],
+          "sources": [
+            {
+              "label": "The Business Standard – Thoughts",
+              "url": "https://www.tbsnews.net/thoughts/budget-fy27-trillion-dollar-dream-needs-smarter-industrial-policy-1463421"
+            }
+          ]
+        },
+        {
+          "id": "2026-06-16-iran-us-hormuz-oil",
+          "category": "GLOBAL",
+          "title": "Iran and US agree to halt war and reopen Strait of Hormuz; oil tumbles",
+          "bullets": [
+            "Washington and Tehran agreed to halt hostilities and reopen the Strait of Hormuz after a month-long naval blockade, sending crude prices sharply lower; Trump says the deal is 'all signed'.",
+            "The strait carries about a fifth of global oil and gas; its reopening eases the supply-shock premium that had pushed Brent toward and above $100/bbl during the crisis.",
+            "Lower oil is a clear positive for energy-importing Bangladesh — easing fuel-subsidy, inflation and current-account pressure and supporting power, fuel and cost-sensitive sectors."
+          ],
+          "tickers": [],
+          "sources": [
+            {
+              "label": "TBS – Iran, US agree to halt war, reopen Hormuz",
+              "url": "https://www.tbsnews.net/worldbiz/middle-east/iran-us-agree-halt-war-and-reopen-hormuz-sending-oil-prices-tumbling-1463416"
+            },
+            {
+              "label": "TBS – Trump says Iran deal 'all signed'",
+              "url": "https://www.tbsnews.net/world/trump-says-iran-deal-all-signed-text-be-released-soon-1464201"
+            }
+          ]
+        },
+        {
+          "id": "2026-06-16-fed-hold-june-fomc",
+          "category": "GLOBAL",
+          "title": "US Fed widely expected to hold rates at June 16-17 FOMC",
+          "bullets": [
+            "Markets price ~99% odds the Federal Reserve keeps the funds rate at 3.50-3.75% at this week's FOMC, with new chair Kevin Warsh signalling patience.",
+            "Sticky, energy-driven inflation and unemployment near 4.4% keep the Fed in wait-and-see mode after its last cut in late 2025.",
+            "A steady Fed and softer oil give emerging markets like Bangladesh more policy space and reduce taka-depreciation pressure."
+          ],
+          "tickers": [],
+          "sources": [
+            {
+              "label": "Mitrade – Fed June 2026 decision",
+              "url": "https://www.mitrade.com/au/insights/others/cfd-trading/fed-interest-rate-decision-2026"
+            }
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-06-14",
       "displayDate": "Sunday, June 14, 2026",
