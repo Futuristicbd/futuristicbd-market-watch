@@ -2,89 +2,108 @@
   "site": {
     "name": "FuturisticBD Market Watch",
     "tagline": "Daily Bangladesh capital-market intelligence · price-sensitive, policy, macro & global",
-    "updatedAt": "2026-06-29T00:19:22+06:00"
+    "updatedAt": "2026-06-29T23:16:51+06:00"
   },
   "editions": [
     {
       "date": "2026-06-29",
       "displayDate": "Monday, June 29, 2026",
       "marketSnapshot": {
-        "asOf": "DSE close, Tuesday, June 24, 2026 (last session with fully sourced index figures; markets also traded 25 & 28 June with figures still being confirmed, 29 June pre-open)",
+        "asOf": "DSE close, Sunday, June 28, 2026 — latest session with published index data. DSEX & DS30 are 28 Jun closes; DSES shown is its last published close (23 Jun). The 29 June session closed with turnover ~Tk1,352 crore, but the official 29 Jun index close was not yet published at edition time (last completed session; 29 Jun index figures pending).",
         "indices": [
           {
             "name": "DSEX",
-            "value": "5,641",
-            "change": "+36",
+            "value": "5,719",
+            "change": "+66",
             "dir": "up"
           },
           {
             "name": "DS30",
-            "value": "2,141",
-            "change": "+14",
+            "value": "2,162",
+            "change": "+31",
             "dir": "up"
           },
           {
             "name": "DSES (Shariah)",
-            "value": "1,151",
-            "change": "+11",
+            "value": "1,139",
+            "change": "+10",
             "dir": "up"
           }
         ],
-        "turnover": "Tk 1,111 crore (June 24, up ~18%); Tk 828 crore on June 23",
-        "breadth": "June 25 session: 273 advanced · 68 declined · 54 unchanged (395 issues)"
+        "turnover": "Tk 1,371 crore (28 Jun, +24% DoD); 29 Jun turnover Tk 1,352 crore (DSE official: Tk13,515.199mn, 297,770 trades, 404.2mn shares)",
+        "breadth": "213 advanced · 133 declined · 48 unchanged (28 Jun session)"
       },
       "items": [
         {
-          "id": "2026-06-29-dse-week-red-three-day-rally",
+          "id": "2026-06-29-dsex-reclaims-5700",
           "category": "PRICE-SENSITIVE",
-          "title": "DSE ends week marginally lower despite three-day rally; index at 10-month-high zone",
+          "title": "DSEX reclaims 5,700 for first time in ~22 months as rally broadens",
           "bullets": [
-            "Benchmark DSEX posted a net decline of about 9 points over the five sessions to 25 June: gains of 98.62 points in three sessions were outweighed by 107.19 points of losses in the other two.",
-            "Thursday (25 June) closed positive and broad-based: of 395 issues, 273 advanced, 68 declined and 54 were unchanged; DS30 rose 10.26 points to 2,141.42 and Shariah DSES added 6.98 points to 1,150.63.",
-            "Top gainers: Pragati Insurance (+9.90% to Tk83.2), Sonargaon Textile (+9.58% to Tk96), Green Delta Mutual Fund (+8.57%). Top losers: Beximco Ltd (-9.84% to Tk28.4), International Leasing and Premier Leasing (both -8.33%).",
-            "EBL Securities flagged tax-rebate appeal, easing Strait of Hormuz concerns and the Finance Minister's reaffirmed market-development pledge as supports against early-week, post-budget profit-taking."
+            "The benchmark DSEX rose 66 points (+1.17%) to settle at 5,719 on 28 June — its highest in nearly two years — while the blue-chip DS30 added 31 points to 2,162.",
+            "Turnover jumped 24% to Tk1,371 crore; market breadth was firmly bullish at 213 advancers vs 133 decliners and 48 unchanged.",
+            "Banking led turnover at 16.3% of value; top index pullers were BRAC Bank, Pubali Bank, Square Pharma, Al-Arafah Islami Bank and Beximco Pharma.",
+            "EBL Securities credited tax-rebate appeal and easing Middle East concerns; momentum is positive but watch for profit-taking near the two-year high."
           ],
           "tickers": [
-            "PRAGATIINS",
-            "SONARGAON",
-            "GREENDELMF",
-            "BEXIMCO",
-            "ILFSL",
-            "PREMIERLEA"
+            "DSEX",
+            "DS30",
+            "BRACBANK",
+            "PUBALIBANK",
+            "SQURPHARMA"
           ],
           "sources": [
             {
-              "label": "TBS — DSE ends week in the red despite three-day rally",
-              "url": "https://www.tbsnews.net/economy/stocks/dse-ends-week-red-despite-three-day-rally-1472511"
+              "label": "TBS — DSEX reclaims 5,700 mark after 22 months",
+              "url": "https://www.tbsnews.net/economy/stocks/dsex-reclaims-5700-mark-after-22-months-1474571"
             }
           ]
         },
         {
-          "id": "2026-06-29-dse-bargain-hunting-rebound",
+          "id": "2026-06-29-beximco-rebound",
           "category": "PRICE-SENSITIVE",
-          "title": "Bargain hunting drove mid-week rebound; turnover stayed thin on caution",
+          "title": "Beximco Ltd snaps back 9.86%, tops turnover after 74% crash",
           "bullets": [
-            "DSEX rebounded 51 points to 5,605 on 23 June after two losing sessions, then extended the rally on 24 June (+36 points) with turnover climbing about 18% to Tk1,110.74 crore.",
-            "Turnover on 23 June was a modest Tk828 crore (down 5.48%), signalling many investors stayed on the sidelines despite the recovery.",
-            "Pharma led turnover at 16.1%, followed by banks (12.3%) and engineering (11.2%); NBFIs led sector gains. On the CSE, the CASPI rose 36 points and the CSCX gained 4.6 points.",
-            "Market insiders said trading suspensions in two firms and a probe committee into unusual price moves in six firms had earlier dented sentiment."
+            "Beximco Limited hit its upper circuit, surging 9.86% to Tk31.20, with 3.91 crore shares traded for Tk105.56 crore — the most-traded stock on the DSE.",
+            "The bounce follows a 74.20% slide over 13 sessions after BSEC removed the stock's long-standing floor price on 9 June, wiping ~Tk7,706 crore off market cap (from Tk110.10 pre-removal).",
+            "Speculative rebound only: governance and legal overhang (see Company item) means high volatility likely persists."
+          ],
+          "tickers": [
+            "BEXIMCO"
+          ],
+          "sources": [
+            {
+              "label": "TBS — Bears loosen grip as Beximco shares stage rebound",
+              "url": "https://www.tbsnews.net/economy/stocks/bears-loosen-grip-beximco-shares-stage-rebound-lead-dse-turnover-1474806"
+            },
+            {
+              "label": "TBS — Beximco sheds Tk7,706cr market value",
+              "url": "https://www.tbsnews.net/economy/stocks/beximco-sheds-tk7706cr-market-value-investors-face-heavy-losses-1472491"
+            }
+          ]
+        },
+        {
+          "id": "2026-06-29-bsec-realtime-surveillance",
+          "category": "PRICE-SENSITIVE",
+          "title": "BSEC pushes DSE for real-time market surveillance to curb manipulation",
+          "bullets": [
+            "BSEC has asked the Dhaka bourse to adopt real-time surveillance to detect and deter price manipulation amid a run of unusual-price-movement cases.",
+            "Tighter monitoring helps long-term integrity but, as recent trading halts and probes showed, can dent short-term sentiment in speculative counters."
           ],
           "tickers": [],
           "sources": [
             {
-              "label": "TBS — DSE bounces back but low turnover reflects investor hesitation",
-              "url": "https://www.tbsnews.net/economy/stocks/dse-bounces-back-low-turnover-reflects-investor-hesitation-1470641"
+              "label": "TBS — BSEC bats for real-time market surveillance",
+              "url": "https://www.tbsnews.net/economy/stocks/bsec-bats-real-time-market-surveillance-curb-manipulation-1468911"
             }
           ]
         },
         {
-          "id": "2026-06-29-daffodil-query-surveillance",
+          "id": "2026-06-29-dse-query-daffodil",
           "category": "PRICE-SENSITIVE",
-          "title": "DSE serves price query to Daffodil Computers as BSEC pushes real-time surveillance",
+          "title": "DSE serves query to Daffodil Computers on sharp price rise",
           "bullets": [
-            "The DSE issued a price-query notice to Daffodil Computers following a sharp, unexplained share-price rise — a sign of tighter scrutiny on speculative counters.",
-            "BSEC has formally asked the bourse to deploy real-time market surveillance to curb manipulation, part of new chairman Masud Khan's anti-manipulation drive.",
-            "Expect continued volatility in low-float, recently-run-up scrips as query notices and trading halts become more frequent."
+            "The DSE issued a price query to Daffodil Computers after an unusual surge; the stock featured among the day's top losers as the rally rotated into large-caps.",
+            "Query responses and 'no undisclosed information' replies often mark froth — a caution flag for retail investors on recently spiked small-caps."
           ],
           "tickers": [
             "DAFODILCOM"
@@ -93,233 +112,167 @@
             {
               "label": "TBS — DSE serves query to Daffodil Computers",
               "url": "https://www.tbsnews.net/economy/stocks/dse-serves-query-daffodil-computers-following-sharp-price-rise-1470676"
-            },
-            {
-              "label": "TBS — BSEC asks Dhaka bourse for real-time surveillance",
-              "url": "https://www.tbsnews.net/economy/stocks/bsec-bats-real-time-market-surveillance-curb-manipulation-1468911"
             }
           ]
         },
         {
-          "id": "2026-06-29-active-fine-production-shut",
-          "category": "PRICE-SENSITIVE",
-          "title": "DSE inspection finds Active Fine Chemicals' production remains shut",
+          "id": "2026-06-29-beximco-governance",
+          "category": "COMPANY",
+          "title": "Beximco governance blackout deepens despite share bounce",
           "bullets": [
-            "A DSE team found that Active Fine Chemicals' manufacturing remains suspended, raising fresh concern over the company's earnings outlook and disclosures.",
-            "Negative for AFCAGRO sentiment; investors should watch for follow-up regulatory disclosure and any category/price adjustment."
+            "Beximco has not approved or published any financial statements since December 2024; its last report (H1 FY2024-25) showed a loss per share of Tk3.78.",
+            "BSEC installed independent directors at Beximco Ltd, Beximco Pharma and Shinepukur Ceramics under government directive — challenged via a pending High Court writ.",
+            "The HC has directed Bangladesh Bank to appoint a receiver and attach group assets over alleged fund laundering — a structural risk capping any sustained re-rating."
           ],
           "tickers": [
-            "AFCAGRO"
+            "BEXIMCO",
+            "BXPHARMA",
+            "SHINEPUKUR"
           ],
           "sources": [
             {
-              "label": "TBS — DSE team finds Active Fine Chemicals' production remains shut",
+              "label": "TBS — Bears loosen grip as Beximco shares stage rebound",
+              "url": "https://www.tbsnews.net/economy/stocks/bears-loosen-grip-beximco-shares-stage-rebound-lead-dse-turnover-1474806"
+            }
+          ]
+        },
+        {
+          "id": "2026-06-29-active-fine-shut",
+          "category": "COMPANY",
+          "title": "DSE inspection finds Active Fine Chemicals' factory shuttered",
+          "bullets": [
+            "A DSE inspection team reported Active Fine Chemicals' production remains shut, raising going-concern and disclosure-quality questions.",
+            "Negative for ACTIVEFINE holders; reinforces the regulator's drive to verify the operational claims behind listed-company disclosures."
+          ],
+          "tickers": [
+            "ACTIVEFINE"
+          ],
+          "sources": [
+            {
+              "label": "TBS — DSE team finds Active Fine Chemicals production shut",
               "url": "https://www.tbsnews.net/economy/stocks/dse-team-finds-active-fine-chemicals-production-remains-shut-1473916"
             }
           ]
         },
         {
-          "id": "2026-06-29-beximco-pharma-turnover-leader",
+          "id": "2026-06-29-sukuk-oversubscribed",
           "category": "COMPANY",
-          "title": "Beximco Pharma tops turnover chart, up ~16% over six sessions",
+          "title": "Debut short-term sukuk oversubscribed tenfold, exposing Islamic-bank liquidity glut",
           "bullets": [
-            "Beximco Pharmaceuticals emerged as the most-traded DSE stock, with about Tk50.78 crore changing hands in a single session and the share gaining roughly 16% over six sessions.",
-            "The rally lifted the pharma sector's weight in overall turnover and reflects rotation into large-cap, fundamentally-driven names.",
-            "Momentum names like this remain exposed to profit-taking and possible surveillance queries if the run extends."
-          ],
-          "tickers": [
-            "BXPHARMA"
-          ],
-          "sources": [
-            {
-              "label": "TBS — Beximco Pharma shares rise 16% in six sessions, top DSE turnover chart",
-              "url": "https://www.tbsnews.net/economy/stocks/beximco-pharma-shares-rise-16-six-sessions-top-dse-turnover-chart-1468901"
-            }
-          ]
-        },
-        {
-          "id": "2026-06-29-islami-insurance-dividend",
-          "category": "COMPANY",
-          "title": "Islami Insurance recommends 16% cash dividend; EPS slips 11%",
-          "bullets": [
-            "Islami Insurance Bangladesh recommended a 16% cash dividend for FY2025, down from 20% the previous year, at its 24 June board meeting.",
-            "EPS fell about 11% year-on-year to Tk3.04; NAV per share was Tk23.62 and net operating cash flow per share Tk0.40 at end-December.",
-            "Lower payout and softer earnings may weigh on the stock near the record date; general-insurance dividends are a key June theme."
-          ],
-          "tickers": [
-            "ISLAMIINS"
-          ],
-          "sources": [
-            {
-              "label": "AmarStock — DSE last 7 days news (dividend & EPS disclosures)",
-              "url": "https://www.amarstock.com/dse-last-7-days-news"
-            }
-          ]
-        },
-        {
-          "id": "2026-06-29-beximco-cystic-fibrosis-drug",
-          "category": "COMPANY",
-          "title": "Beximco launches affordable cystic fibrosis drug for rare-disease patients",
-          "bullets": [
-            "Beximco has launched a locally-made, lower-cost cystic fibrosis treatment, expanding its specialty-pharma footprint and import-substitution story.",
-            "Incrementally supportive for the Beximco group's pharma narrative and brand, though near-term revenue impact is likely small."
-          ],
-          "tickers": [
-            "BXPHARMA",
-            "BEXIMCO"
-          ],
-          "sources": [
-            {
-              "label": "TBS — Rare disease patients gain hope as Beximco launches affordable cystic fibrosis drug",
-              "url": "https://www.tbsnews.net/bangladesh/health/rare-disease-patients-gain-hope-beximco-launches-affordable-cystic-fibrosis-drug"
-            }
-          ]
-        },
-        {
-          "id": "2026-06-29-bsec-reform-agenda",
-          "category": "POLICY",
-          "title": "BSEC chief Masud Khan unveils reform agenda to rebuild investor confidence",
-          "bullets": [
-            "New BSEC chairman Masud Khan (appointed 4 June, with three new commissioners) laid out a roadmap centred on a modern real-time surveillance system with DSE and CDBL.",
-            "Plans include luring multinationals, SOEs and large local firms to list via an NBR-backed 'Listed Company Advantage Programme', plus 'Smart Regulation' to cut compliance costs.",
-            "Digitalisation of IPOs, rights issues and bond/sukuk approvals is targeted; medium-term positive for market depth and foreign participation, though execution risk is high.",
-            "Tougher enforcement against insider, circular and pump-and-dump trading is already showing up in query notices and probes."
+            "A maiden short-term sukuk drew bids ~10x the offer, highlighting excess liquidity parked in Shariah-compliant banks.",
+            "Strong appetite supports Islamic-finance instruments and could channel idle funds toward Shariah equities and funds (relevant to the DSES segment)."
           ],
           "tickers": [],
           "sources": [
             {
-              "label": "BSS — BSEC chief unveils reform agenda to transform capital market",
-              "url": "https://www.bssnews.net/business/392531"
-            },
-            {
-              "label": "TBS — BSEC overhaul: new chairman prioritises real-time surveillance, foreign investment",
-              "url": "https://www.tbsnews.net/economy/stocks/bsec-overhaul-new-chairman-prioritises-real-time-market-surveillance-foreign"
+              "label": "TBS — Debut short-term sukuk oversubscribed tenfold",
+              "url": "https://www.tbsnews.net/economy/banking/debut-short-term-sukuk-oversubscribed-tenfold-exposing-islamic-banks-liquidity-glut"
             }
           ]
         },
         {
           "id": "2026-06-29-cenbank-policy-rate-spread-cap",
           "category": "POLICY",
-          "title": "Bangladesh Bank to hold policy rate, weighs re-imposing 4% cap on bank spreads",
+          "title": "Bangladesh Bank to hold policy rate, weighs re-imposing 4% spread cap",
           "bullets": [
-            "The central bank signalled it will not cut the policy rate and is considering re-imposing a 4% cap on the spread between banks' lending and deposit rates.",
-            "A spread cap would squeeze net interest margins for banks while easing borrowing costs for businesses — mixed for listed bank stocks.",
-            "Sustained tight monetary policy keeps Treasury yields elevated, a competing draw against equities for liquidity."
+            "The central bank signalled no policy-rate cut and is weighing reinstating a 4% cap on bank lending-deposit spreads.",
+            "A spread cap squeezes net interest margins for banks — a potential headwind for the heavyweight banking sector now leading the DSEX rally."
           ],
           "tickers": [],
           "sources": [
             {
-              "label": "TBS — Cenbank won't cut policy rate, weighs re-imposing 4% cap on bank spreads",
+              "label": "TBS — Cenbank won't cut policy rate, weighs 4% spread cap",
               "url": "https://www.tbsnews.net/economy/banking/cenbank-wont-cut-policy-rate-weighs-re-imposing-4-cap-bank-spreads-1470721"
             }
           ]
         },
         {
-          "id": "2026-06-29-remittance-reserves-record",
-          "category": "MACRO",
-          "title": "Remittances hit record ~$35bn in FY26; reserves near $29.5bn under IMF method",
+          "id": "2026-06-29-pm-black-money-budget",
+          "category": "POLICY",
+          "title": "PM urges withdrawal of black-money legalisation provision in FY27 budget",
           "bullets": [
-            "Remittance inflow reached about $35 billion through 23 June of FY2025-26, up from $29.72 billion a year earlier — a major support for the taka and external balance.",
-            "Gross reserves crossed $29 billion (IMF/BPM6 method), with the government targeting $51 billion of reserves by FY27.",
-            "Strong remittance and reserve build-up reduce devaluation risk and can ease imported inflation — supportive backdrop for equities over the medium term."
+            "Addressing parliament on 29 June, the PM called for scrapping the proposed provision allowing undisclosed money to be legalised in the FY27 budget.",
+            "Removing the facility is a governance positive but could trim some untaxed inflows into property and equities; the final budget shape is the swing factor for market liquidity."
           ],
           "tickers": [],
           "sources": [
             {
-              "label": "BSS — Remittance inflow remains strong with FY growth",
-              "url": "https://www.bssnews.net/business/399384"
-            },
-            {
-              "label": "The Daily Star — Reserves cross $29b under IMF method",
-              "url": "https://www.thedailystar.net/business/economy/news/reserves-cross-29b-under-imf-method-4102381"
-            },
-            {
-              "label": "The Daily Star — Govt eyes $51b reserves in FY27",
-              "url": "https://www.thedailystar.net/business/bangladesh-budget-2026-27/news/govt-eyes-51b-reserves-fy27-4186996"
+              "label": "TBS — PM calls for withdrawal of black money legalisation provision",
+              "url": "https://www.tbsnews.net/bangladesh/pm-calls-withdrawal-black-money-legalisation-provision-proposed-budget-1475021"
             }
           ]
         },
         {
-          "id": "2026-06-29-imf-vat-loan-tranche",
+          "id": "2026-06-29-imf-vat-turnover-tax",
           "category": "POLICY",
-          "title": "IMF ties uniform 15% VAT and turnover tax to new loan; next $1.3bn tranche in play",
+          "title": "IMF ties uniform 15% VAT and turnover tax to new loan package",
           "bullets": [
-            "The IMF has linked a uniform 15% VAT and turnover tax to Bangladesh's loan programme; economists warn the rate pressures low-income earners and some want it cut toward 10%.",
-            "The Fund advises maintaining tight monetary policy and the new exchange-rate regime, with inflation expected to stay above the 5-6% target near-term.",
-            "Release of the next ~$1.3 billion tranche is being processed; conditionality keeps fiscal and monetary policy restrictive — a headwind for consumption-sensitive sectors."
+            "The IMF has linked its new loan tranche to a uniform 15% VAT and turnover-tax reforms, pressing fiscal consolidation.",
+            "Higher/uniform VAT lifts revenue but can squeeze consumption and corporate margins — mixed for consumer, food and retail-exposed listed names."
           ],
           "tickers": [],
           "sources": [
             {
               "label": "TBS — IMF ties uniform 15% VAT, turnover tax to new loan package",
               "url": "https://www.tbsnews.net/economy/banking/imf-ties-uniform-15-vat-turnover-tax-new-loan-package-1469951"
-            },
-            {
-              "label": "The Daily Star — IMF loan: Bangladesh may get next tranche in June",
-              "url": "https://www.thedailystar.net/news/bangladesh/news/imf-loan-bangladesh-may-get-next-tranche-june-4128866"
             }
           ]
         },
         {
-          "id": "2026-06-29-brent-crude-hormuz",
-          "category": "GLOBAL",
-          "title": "Brent slides to ~$72 as Strait of Hormuz traffic normalises after US-Iran deal",
+          "id": "2026-06-29-qatarenergy-lng-cut",
+          "category": "MACRO",
+          "title": "QatarEnergy may halve LNG supply to Bangladesh in 2026",
           "bullets": [
-            "Brent crude fell to around $72/bbl — its lowest since 27 February — as tanker transits through the Strait of Hormuz accelerated following a US-Iran memorandum easing hostilities.",
-            "Lower oil is a clear positive for Bangladesh's import bill, subsidy burden, inflation and the taka, and eases pressure on fuel-and-power costs.",
-            "Bangladeshi vessel Banglar Joyjatra cleared the Strait after a four-and-a-half-month ordeal, underscoring the de-escalation."
+            "QatarEnergy has warned it may cut LNG deliveries to Bangladesh by up to half this year, threatening gas-fed power and industrial output.",
+            "A technical fault and coal-supply disruption already knocked ~3,000MW off the grid, triggering load-shedding.",
+            "Energy insecurity is negative for power, fuel and gas-intensive manufacturers (fertiliser, textiles, ceramics) and adds to import-bill and taka pressure."
           ],
           "tickers": [],
           "sources": [
             {
-              "label": "Trading Economics — Brent crude oil price",
-              "url": "https://tradingeconomics.com/commodity/brent-crude-oil"
+              "label": "TBS — QatarEnergy may halve LNG supply to Bangladesh in 2026",
+              "url": "https://www.tbsnews.net/bangladesh/energy/qatarenergy-says-it-may-halve-lng-supply-bangladesh-2026-1473821"
+            },
+            {
+              "label": "TBS — Technical fault, coal disruption cut 3,000MW from grid",
+              "url": "https://www.tbsnews.net/bangladesh/energy/technical-fault-coal-supply-disruption-cut-3000mw-national-grid-trigger-load"
+            }
+          ]
+        },
+        {
+          "id": "2026-06-29-china-investment-9b",
+          "category": "MACRO",
+          "title": "11 Chinese firms propose $9.21b investment in Bangladesh",
+          "bullets": [
+            "Eleven Chinese companies signalled willingness to invest up to $9.21 billion, following the PM's China trip and investment outreach.",
+            "If realised, large FDI would support reserves, jobs and the taka — a medium-term positive backdrop for equities, especially industrials and infrastructure."
+          ],
+          "tickers": [],
+          "sources": [
+            {
+              "label": "TBS — 11 Chinese firms propose $9.21b investment",
+              "url": "https://www.tbsnews.net/bangladesh/eleven-chinese-companies-propose-921b-investment-1474161"
+            }
+          ]
+        },
+        {
+          "id": "2026-06-29-iran-us-hormuz",
+          "category": "GLOBAL",
+          "title": "Easing US-Iran tensions and Hormuz relief support BD sentiment, oil risk lingers",
+          "bullets": [
+            "Iran and the US moved toward a deal to release ~$12b in frozen assets, and a Bangladeshi vessel (Banglar Joyjatra) cleared the Strait of Hormuz after months — easing the geopolitical premium that had pressured Dhaka stocks.",
+            "Brokers cited 'easing geopolitical concerns' as a catalyst for the DSEX rally to 5,719.",
+            "Bangladesh imports ~40% of fuel via Hormuz, so any renewed flare-up or oil-price spike would quickly hit the taka, the import bill and energy/import-dependent equities."
+          ],
+          "tickers": [],
+          "sources": [
+            {
+              "label": "TBS — Iran, US finalise agreement on $12b frozen assets",
+              "url": "https://www.tbsnews.net/worldbiz/middle-east/iran-us-finalise-agreement-release-12-billion-frozen-assets-1469941"
             },
             {
               "label": "TBS — Banglar Joyjatra clears Strait of Hormuz",
               "url": "https://www.tbsnews.net/bangladesh/banglar-joyjatra-clears-strait-hormuz-after-four-and-half-month-ordeal-1469926"
-            }
-          ]
-        },
-        {
-          "id": "2026-06-29-fed-rates-hold",
-          "category": "GLOBAL",
-          "title": "US Fed holds at 3.50-3.75%; nearly half of policymakers see a 2026 hike",
-          "bullets": [
-            "The Federal Reserve, chaired by Kevin Warsh, kept rates at 3.50-3.75% at its 17 June meeting, stressing an 'unambiguous' commitment to price stability.",
-            "Nearly half of policymakers expect at least one more hike before year-end, supporting a stronger-for-longer dollar.",
-            "A firm dollar and higher-for-longer US rates can pressure the taka and dampen foreign portfolio flows into frontier markets like Bangladesh."
-          ],
-          "tickers": [],
-          "sources": [
-            {
-              "label": "Kiplinger — June 2026 Fed meeting updates",
-              "url": "https://www.kiplinger.com/news/live/fed-meeting-updates-and-commentary-june-2026"
-            },
-            {
-              "label": "Trading Economics — US Fed Funds rate",
-              "url": "https://tradingeconomics.com/united-states/interest-rate"
-            }
-          ]
-        },
-        {
-          "id": "2026-06-29-rmg-textile-stress-power",
-          "category": "MACRO",
-          "title": "Textile/RMG sector under strain as India blocks added power transit",
-          "bullets": [
-            "Analysts warn Bangladesh's roughly $23 billion textile sector is edging toward stress amid weak margins, energy costs and global demand softness — a risk for listed spinners and weavers.",
-            "India blocked an additional 20MW of power export from Nepal to Bangladesh, adding to energy-supply uncertainty ahead of peak-demand season.",
-            "Watch textile and fuel-and-power counters; the government is planning a Tk4,973 crore power upgrade for Dhaka's industrial outskirts."
-          ],
-          "tickers": [],
-          "sources": [
-            {
-              "label": "TBS — Is Bangladesh's $23b textile sector edging towards collapse?",
-              "url": "https://www.tbsnews.net/bangladesh/bangladeshs-23b-textile-sector-edging-towards-collapse-1471801"
-            },
-            {
-              "label": "TBS — India blocks 20MW additional power export from Nepal to Bangladesh",
-              "url": "https://www.tbsnews.net/bangladesh/energy/india-blocks-20mw-addl-power-export-nepal-bangladesh-1471756"
             }
           ]
         }
